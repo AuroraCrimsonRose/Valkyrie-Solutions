@@ -1,0 +1,96 @@
+SoftwareType
+        {
+            Name            "Overclocking Software"
+            Description     "Make your hardware run faster"
+            Unlock          1999
+            Random          0.1
+            IdealPrice      20
+            OptimalDevTime  24
+            OSSupport       [ Computer ]
+            OneClient       False
+            InHouse         False
+            Popularity      0.10
+            Retention       30
+            Iterative       0.60
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   ng_OcSftw
+            Features
+                    [
+                        {
+                        Name            "Interface"
+                        Spec            2D
+                        DevTime         3
+                        CodeArt         0.5
+                        Dependencies    "2D Editor"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "User Interface"
+                                            DevTime         5
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Advanced Interface"
+                                            DevTime         9
+                                            CodeArt         0
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2011
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "System"
+                        Spec            System
+                        DevTime         6
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "CPU Overclocking"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "GPU Overclocking"
+                                            DevTime         8
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2007
+                                        }
+                                        {
+                                            Name            "Automatic Overclocking"
+                                            DevTime         12
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2012
+                                        }
+                                        {
+                                            Name            "Fan Control"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2005
+                                        }
+                                        {
+                                            Name            "Automatic Fan Control"
+                                            DevTime         6
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2010
+                                        }
+                                    ]
+                        }
+                    ]
+        }

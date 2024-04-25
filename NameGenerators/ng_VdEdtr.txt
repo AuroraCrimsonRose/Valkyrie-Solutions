@@ -1,0 +1,13 @@
+-start(base)
+-base(base2)
+Bloom
+Premiere
+Showtime
+Vegas
+Video
+Vlamey
+-base2(stop)
+Editor
+Plus
+ Pro
+ Suite

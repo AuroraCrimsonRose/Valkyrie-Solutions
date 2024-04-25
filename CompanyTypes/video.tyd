@@ -1,0 +1,16 @@
+CompanyType
+	{
+	Specialization		"Video Technologies"
+	PerYear				0.2
+	Min					2
+	Max					2
+    Frameworks          False
+	Types
+		[
+			{
+			Software	"Video Editor"
+			Chance		1
+			Force		True
+			}
+		]
+	}

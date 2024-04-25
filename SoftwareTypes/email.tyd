@@ -1,0 +1,129 @@
+SoftwareType
+        {
+            Name            "Email Client"
+            Description     "Used to Browse the World Wide Web"
+            Unlock          2001
+            Random          0.15
+            IdealPrice      60
+            OptimalDevTime  24
+            OSSupport       [ Computer; Phone ]
+            OneClient       False
+            InHouse         False
+            Popularity      0.5
+            Retention       90
+            Iterative       0.90
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   emailclient
+            Features
+                    [
+                        {
+                        Name            "Interface"
+                        Spec            2D
+                        DevTime         3
+                        CodeArt         0.5
+                        Dependencies    "2D Editor"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "User Interface"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Advanced User Interface"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2010
+                                        }
+                                        {
+                                            Name            "Filters"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2007
+                                        }
+                                        {
+                                            Name            "Layout Support"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2007
+                                        }
+                                        {
+                                            Name            "Attachments"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "File Preview"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2010
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "System"
+                        Spec            System
+                        DevTime         6
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [
+                                        
+                                        {
+                                            Name            "Auto Save"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2010
+                                        }
+                                        {
+                                            Name            "Auto Correct"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2010
+                                        }
+                                        {
+                                            Name            "Spam Filter"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2008
+                                        }
+                                        {
+                                            Name            "Virus Scanner"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2009
+                                        }
+                                        {
+                                            Name            "Encryption"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2010
+                                        }
+                                    ]
+                        }
+                    ]
+        }

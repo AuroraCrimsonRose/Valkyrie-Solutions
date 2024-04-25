@@ -1,0 +1,16 @@
+CompanyType
+	{
+	Specialization		"Cloud Technologies"
+	PerYear				0.2
+	Min					2
+	Max					2
+    Frameworks          False
+	Types
+		[
+			{
+			Software	"Cloud Software"
+			Chance		1
+			Force		True
+			}
+		]
+	}

@@ -1,0 +1,17 @@
+[REPLACE]
+-start(base)
+-base(end,stop)
+Steam
+Battle.net
+Origin
+Epic Games
+Microsoft Store
+Google Play
+Amazon Games
+Amazon Marketplace
+Ubisoft Connect
+Apple App Store
+Samsung Store
+Play Station Store
+Meta Quest
+-end(stop)

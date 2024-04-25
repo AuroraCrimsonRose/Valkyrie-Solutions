@@ -1,0 +1,21 @@
+PersonalityGraph
+    {
+    Personalities
+        [
+            {
+            Name          Visionary
+            WorkLearn     0
+            Social        -1
+            LazyStress    1
+            Relationships
+                {
+                Goofy          1.5
+                Stubborn       0.1
+                Naive          0.1
+                }
+            }
+        ]
+    Incompatibilities
+        []
+    }
+

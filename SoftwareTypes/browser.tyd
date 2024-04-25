@@ -1,0 +1,230 @@
+SoftwareType
+        {
+            Name            "Browser"
+            Description     "Used to Browse the World Wide Web"
+            Unlock          1980
+            Random          0.01
+            IdealPrice      60
+            OptimalDevTime  24
+            OSSupport       [ Computer; Phone; Console ]
+            OneClient       False
+            InHouse         False
+            Popularity      1
+            Retention       45
+            Iterative       0.50
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   browserGen
+            Features
+                    [
+                        {
+                        Name            "Interface"
+                        Spec            2D
+                        DevTime         3
+                        CodeArt         0.5
+                        Dependencies    "2D Editor"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Toolbar"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Tabs"
+                                            Description     "Multitasking"
+                                            DevTime         2
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Vertical Tabs"
+                                            Description     "Multitask but Vertical"
+                                            DevTime         3
+                                            CodeArt         2
+                                            Level           2
+                                            Submarkets      [ 1; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "Grouped Tabs"
+                                            Description     "Multitask in Groups"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 0; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "Themes"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           2
+                                            Submarkets      [ 0; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "Sidebar"
+                                            Description     "Easily Access to saved things"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Developer Tools"
+                                            DevTime         4
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 2; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "Integrated Search"
+                                            Description     "Search Directly from the UI"
+                                            DevTime         4
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 1; 0 ]
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "System"
+                        Spec            System
+                        DevTime         6
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Bookmarks & History"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "Password Manager"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 0; 0; 1 ]
+                                        }   
+                                        {
+                                            Name            "Picture-in-Picture Mode"
+                                            Unlock          2000
+                                            DevTime         2
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 0; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "Download Manager"
+                                            Unlock          2000
+                                            DevTime         4
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Incognito Mode"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 0; 0; 1 ]
+                                        }
+                                        {
+                                            Name            "WebVR"
+                                            Description     "Support VR web applications"
+                                            Unlock          2014
+                                            DevTime         5
+                                            Level           2
+                                            CodeArt         1
+                                            Submarkets      [ 1; 3; 0 ]
+                                        }
+                                        {
+                                            Name            "WebAR"
+                                            Description     "Support AR web applications"
+                                            Unlock          2018
+                                            DevTime         6
+                                            Level           2
+                                            CodeArt         1
+                                            Submarkets      [ 1; 3; 0 ]
+                                        }
+                                        {
+                                            Name            "Resource Manager"
+                                            Description     "Easily limit the CPU, RAM, and network usage of the browser"
+                                            Unlock          2000
+                                            DevTime         3
+                                            Level           1
+                                            CodeArt         1
+                                            Submarkets      [ 1; 5; 0 ]
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "Network"
+                        Spec            Network
+                        DevTime         3
+                        CodeArt         1
+                        Submarkets      [ 1; 1; 1 ]
+                        Features
+                                    [
+                                        {
+                                        Name            "Account Integration"
+                                        Description     "Save and transfer your bookmarks, history, and more!"
+                                        Unlock          2000
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           1
+                                        Submarkets      [ 1; 2; 0 ]
+                                        }
+                                        {
+                                        Name            "Integrated Adblock"
+                                        Unlock          1995
+                                        DevTime         3
+                                        CodeArt         2
+                                        Level           1
+                                        Submarkets      [ 0; 0; 1 ]
+                                        }
+                                        {
+                                            Name            "Plugins"
+                                            Unlock          2005
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 1; 1 ]
+                                        }
+                                        {
+                                            Name            "AI Assistant Integration"
+                                            Unlock          2020
+                                            DevTime         4
+                                            CodeArt         2
+                                            Level           2
+                                            Submarkets      [ 1; 1; 0 ]
+                                        }
+                                        {
+                                        Name            "VPN"
+                                        Description     "Integrated VPN in your browser, sweet!"
+                                        Unlock          2010
+                                        DevTime         3
+                                        Level           1
+                                        CodeArt         1
+                                        Submarkets      [ 0; 0; 1 ]
+                                        Server          0.00008
+                                        }
+                                        {
+                                            Name            "HTTPS Socket Support"
+                                            Description     "Verify who your connecting to"
+                                            Unlock          2005
+                                            DevTime         4
+                                            Level           2
+                                            CodeArt         1
+                                            Submarkets      [ 1; 0; 1 ]
+                                        }
+                                    ]
+                        }
+                    ]
+        }

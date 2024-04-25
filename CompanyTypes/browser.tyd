@@ -1,0 +1,16 @@
+CompanyType
+	{
+	Specialization		"Browser Technologies"
+	PerYear				0.2
+	Min					2
+	Max					2
+    Frameworks          False
+	Types
+		[
+			{
+			Software	"Browser"
+			Chance		1
+			Force		True
+			}
+		]
+	}

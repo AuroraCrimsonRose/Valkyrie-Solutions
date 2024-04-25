@@ -1,0 +1,190 @@
+SoftwareType
+        {
+            Name            "Video Editor"
+            Description     "Be able to edit videos"
+            Unlock          1994
+            Random          0.1
+            IdealPrice      60
+            OptimalDevTime  24
+            OSSupport       [ Computer ]
+            OneClient       False
+            InHouse         False
+            Popularity      0.6
+            Retention       450
+            Iterative       1
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   ng_VdEdtr
+            Features
+                    [
+                        {
+                        Name            "Interface"
+                        Spec            2D
+                        DevTime         3
+                        CodeArt         0.5
+                        Dependencies    "2D Editor"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Custom Framerates"
+                                            DevTime         4
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "UI Customization"
+                                            DevTime         5
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Special Effects"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "HD Support"
+                                            DevTime         10
+                                            CodeArt         0.75
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2005
+                                        }
+                                        {
+                                            Name            "Encoder"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "Audio"
+                        Spec            Audio
+                        DevTime         2
+                        CodeArt         1
+                        Dependencies    "Audio Tool"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Sound Effects"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "Formats"
+                        Spec            System
+                        DevTime         11
+                        CodeArt         0.9
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "DCT"
+                                            DevTime         2
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "H.261"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                        }
+                                        {
+                                            Name            "Theora"
+                                            DevTime         5
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2004
+                                        }
+                                        {
+                                            Name            "VP8"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2008
+                                        }
+                                        {
+                                            Name            "AV1"
+                                            DevTime         5
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2015
+                                        }
+                                    ]
+                        }
+                    ]
+            AddOns
+		            [
+                        {
+                        Name		   "Expansion pack"
+                        Description    "Codecs"
+                        NameGenerator  GameExpansion
+                        IdealPrice 	   20
+                        OptimalDevTime 8
+                        Retention      9
+                        Features
+                                    [
+                                        {
+                                            Name            "H.262"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          1996
+                                            DependsOn  "H.261"
+                                        }
+                                        {
+                                            Name            "H.264"
+                                            DevTime         8
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2003
+                                            DependsOn  "H.261"
+                                        }
+                                        {
+                                            Name            "H.265"
+                                            DevTime         5
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2013
+                                            DependsOn  "H.261"
+                                        }
+                                        {
+                                            Name            "H.266"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2017
+                                            DependsOn  "H.261"
+                                        }
+                                        {
+                                            Name            "VP9"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2012
+                                            DependsOn  "VP8"
+                                        }

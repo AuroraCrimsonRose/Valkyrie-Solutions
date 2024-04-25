@@ -1,0 +1,109 @@
+[REPLACE]
+-start(base)
+-base(end,stop)
+2K Games
+Accenture
+Acer
+Activision Blizzard
+Adobe
+Amazon
+AMD
+Apple
+Asus
+Atari
+Avalanche Software
+Avira
+Bandai Namco
+Bethesda Softworks
+BioWare
+Bluehole
+Bohemia Interactive
+Bungie
+Casio
+CD Projekt
+Cisco Systems
+Codemasters
+Colossal Order
+Commodore
+Coredumping
+Creative Assembly
+Curve Digital
+Daedalic Entertainment
+Deep Silver
+Devolver Digital
+DICE
+Double Eleven
+Electronic Arts
+Entrada Interactive
+Epic Games
+Facebook
+Firaxis Games
+Firefly Studios
+Focus Home Interactive
+From Software
+Frontier Developments
+Gearbox Software
+Giants Software
+Google
+Gygabyte
+Hinterland Studios
+Hitachi
+HP
+Huawei
+IBM International Business Machines
+id Software
+Infosys Technologies
+Instagram
+Intel
+JD Edwards
+Kalypso Media Group
+Koch Media
+Konami
+LG
+LinkedIn
+Lionhead
+Logitech
+LucasArts
+Ludeon Studios
+Mad Catz
+McAfee
+Microsoft
+Nintendo
+Nokia
+Nvidia
+Obsidian Entertainment
+Oracle
+Paradox Interactive
+Pendulo Studios
+PeopleSoft
+Playsport Games
+Raw Fury
+Razer
+Roccat
+Rockstar Games
+Samsung
+SAP
+SCS Software
+Sega
+Sony
+Square Enix
+Sun Microsystem
+Symantec
+TakeTwo Interactive
+Team17
+Texas Instruments
+THQ Nordic
+TikTok
+tinyBuild
+Treyarch
+Triumph Studios
+Turn 10 Studios
+Ubisoft Entertainment
+Undead Labs
+Unknown Worlds Entertainment
+Valve Corporation
+VMware
+Warner Bros
+Wipro Technologies
+XBOX Game Studios
+-end(stop)

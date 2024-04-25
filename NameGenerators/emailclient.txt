@@ -1,0 +1,17 @@
+-start(base)
+-base(stop)
+Awesome Mail
+Epic Mail
+Great Mail
+Super Mail
+iPostit
+Get Mail
+We Send Mail
+We Send Email
+Mail Box
+Post Box
+Email Box
+Return To Sender
+Mailit
+Mail Gun
+-end(stop)

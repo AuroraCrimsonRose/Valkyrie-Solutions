@@ -1,0 +1,114 @@
+SoftwareType
+        {
+            Name            "Streaming Software"
+            Description     "Used to show things in real time"
+            Unlock          2010
+            Random          0.3
+            IdealPrice      60
+            OptimalDevTime  24
+            OSSupport       [ Computer ]
+            OneClient       False
+            InHouse         False
+            Popularity      1
+            Retention       45
+            Iterative       0.40
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   ng_StrmSftw
+            Features
+                    [
+                        {
+                        Name            "Interface"
+                        Spec            2D
+                        DevTime         3
+                        CodeArt         0.5
+                        Dependencies    "2D Editor"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Basic Interface"
+                                            DevTime         5
+                                            CodeArt         0
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Advanced Interface"
+                                            DevTime         9
+                                            CodeArt         0
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2014
+                                        }
+                                        {
+                                            Name            "Text in Stream"
+                                            DevTime         2
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2012
+                                        }
+                                        {
+                                            Name            "Stream Overlays"
+                                            DevTime         4
+                                            CodeArt         0.5
+                                            Level           3
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2012
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "System"
+                        Spec            System
+                        DevTime         6
+                        CodeArt         1
+                        Dependencies    "Video Editor"
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Basic Encoding"
+                                            DevTime         5
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Advanced Encoding"
+                                            DevTime         8
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2014
+                                        }
+                                        {
+                                            Name            "Game Optimization"
+                                            DevTime         6
+                                            CodeArt         0.5
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "Audio"
+                        Spec            Audio
+                        DevTime         6
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [ 
+                                        {
+                                            Name            "Music in Stream"
+                                            DevTime         2
+                                            CodeArt         0
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                    ]
+                        }
+                    ]
+        }

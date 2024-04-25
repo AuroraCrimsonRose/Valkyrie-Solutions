@@ -1,0 +1,106 @@
+SoftwareType
+        {
+            Name            "Cloud Software"
+            Description     "Do robots dream of electric sheep?"
+            Unlock          2004
+            Random          0.10
+            IdealPrice      40
+            OptimalDevTime  24
+            OneClient       False
+            InHouse         False
+            Popularity      0.3
+            Retention       30
+            Iterative       0.50
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   ng_CldSftw
+            Features
+                    [
+                        {
+                        Name            "Interface"
+                        Spec            2D
+                        DevTime         3
+                        CodeArt         0.5
+                        Dependencies    "2D Editor"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Password Protection"
+                                            DevTime         1
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Advanced Password Protection"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           2
+                                            Submarkets      [ 1; 0; 0 ]
+                                            Unlock          2006
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "System"
+                        Spec            System
+                        DevTime         6
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "HDD Servers"
+                                            DevTime         1
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Server          0.0001
+                                        }
+                                        {
+                                            Name            "Hybrid Servers"
+                                            DevTime         3
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2008
+                                            Server          0.0005
+                                        }
+                                        {
+                                            Name            "SSD Servers"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2011
+                                            Server          0.001
+                                        }
+                                        {
+                                            Name            "Encryption Algorithm"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2003
+                                        }
+                                        {
+                                            Name            "Virus Protection"
+                                            DevTime         7
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2006
+                                        }
+                                        {
+                                            Name            "DDOS Protection"
+                                            DevTime         8
+                                            CodeArt         1
+                                            Level           3
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2012
+                                        }
+                                    ]
+                        }
+                    ]
+        }
