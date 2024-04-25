@@ -13,7 +13,7 @@ SoftwareType
             Retention       450
             Iterative       1
             SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   ng_VdEdtr
+            NameGenerator   VideoEditor
             Features
                     [
                         {
@@ -42,7 +42,7 @@ SoftwareType
                                         {
                                             Name            "Special Effects"
                                             DevTime         6
-                                            CodeArt         1
+                                            CodeArt         0.5
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
@@ -61,7 +61,7 @@ SoftwareType
                         Name            "Audio"
                         Spec            Audio
                         DevTime         2
-                        CodeArt         1
+                        CodeArt         0.5
                         Dependencies    "Audio Tool"
                         Submarkets      [ 1; 1; 0 ]
                         Features
@@ -69,7 +69,7 @@ SoftwareType
                                         {
                                             Name            "Sound Effects"
                                             DevTime         3
-                                            CodeArt         1
+                                            CodeArt         0.5
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
@@ -77,21 +77,14 @@ SoftwareType
                         }
 
                         {
-                        Name            "Formats"
+                        Name            "Encoder"
                         Spec            System
-                        DevTime         11
-                        CodeArt         0.9
+                        DevTime         2
+                        CodeArt         1
                         Submarkets      [ 1; 0; 0 ]
                         Features
                                     [
                                         
-                                        {
-                                            Name            "Encoder"
-                                            DevTime         6
-                                            CodeArt         1
-                                            Level           1
-                                            Submarkets      [ 2; 1; 0 ]
-                                        }
                                         {
                                             Name            "DCT"
                                             DevTime         2
@@ -142,7 +135,6 @@ SoftwareType
                         IdealPrice 	   20
                         OptimalDevTime 2
                         Retention      10
-                        DependsOn  "Encoder"
                         Features
                                     [
                                         {

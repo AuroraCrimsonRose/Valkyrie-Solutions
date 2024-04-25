@@ -13,7 +13,7 @@ SoftwareType
             Retention       45
             Iterative       0.50
             SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   voipsoftware
+            NameGenerator   VOIPSoftware
             Features
                     [
                         {
