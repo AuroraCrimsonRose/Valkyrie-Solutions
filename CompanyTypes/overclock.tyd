@@ -2,7 +2,7 @@ CompanyType
 	{
 	Specialization		"Overclocking Technologies"
 	PerYear				0.2
-	Min					2
+	Min					0
 	Max					2
     Frameworks          False
 	Types
@@ -10,7 +10,6 @@ CompanyType
 			{
 			Software	"Overclocking Software"
 			Chance		1
-			Force		True
 			}
 		]
 	}
