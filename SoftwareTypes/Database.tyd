@@ -1,0 +1,101 @@
+SoftwareType
+        {
+            Name            "Database Management Software"
+            Description     "Used to manage the database LadysMan217's account is stored"
+            Unlock          1975
+            Random          0.01
+            IdealPrice      60
+            OptimalDevTime  24
+            OSSupport       [ Computer ]
+            OneClient       False
+            InHouse         False
+            Popularity      1
+            Retention       45
+            Iterative       0.50
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   Database
+            Features
+                    [
+                        {
+                            Name            "Interface"
+                            Spec            2D
+                            DevTime         3
+                            CodeArt         0.5
+                            Dependencies    "2D Editor"
+                            Submarkets      [ 1; 1; 0 ]
+                            Features
+                                        [
+                                            
+                                            {
+                                                Name            "GUI"
+                                                Description     "For when you want a clean look"
+                                                DevTime         4
+                                                CodeArt         0.5
+                                                Level           1
+                                                Submarkets      [ 2; 1; 0 ]
+                                                Unlock          1980
+                                            }
+                                            {
+                                                Name            "Database Memory"
+                                                Description     "For when you want it to remember all your databases"
+                                                DevTime         4
+                                                CodeArt         1
+                                                Level           1
+                                                Submarkets      [ 2; 1; 0 ]
+                                                Unlock          1980
+                                            }
+                                        ]
+                        }
+
+                        {
+                            Name            "System"
+                            Spec            System
+                            DevTime         6
+                            CodeArt         1
+                            Submarkets      [ 1; 0; 0 ]
+                            Features
+                                        [
+                                            {
+                                                Name            "Script Support"
+                                                DevTime         3
+                                                CodeArt         1
+                                                Level           1
+                                                Submarkets      [ 2; 1; 0 ]
+                                                Unlock          1990
+                                            }
+                                            {
+                                                Name            "IDS"
+                                                Description     "Integrated Data Storage - Early Storage Schema"
+                                                DevTime         3
+                                                CodeArt         1
+                                                Level           1
+                                                Submarkets      [ 2; 1; 0 ]
+                                            }
+                                            {
+                                                Name            "Local Backups"
+                                                DevTime         3
+                                                CodeArt         1
+                                                Level           1
+                                                Submarkets      [ 3; 0; 0 ]
+                                            }
+                                            {
+                                                Name            "Script Support"
+                                                DevTime         3
+                                                CodeArt         1
+                                                Level           1
+                                                Submarkets      [ 2; 1; 0 ]
+                                            }
+                                            {
+                                                Name            "Script Support"
+                                                DevTime         3
+                                                CodeArt         1
+                                                Level           1
+                                                Submarkets      [ 2; 1; 0 ]
+                                            }
+                                            {
+                                                Name            "Script Support"
+                                                DevTime         3
+                                                CodeArt         1
+                                                Level           1
+                                                Submarkets      [ 2; 1; 0 ]
+                                            }

@@ -1,7 +1,7 @@
 CompanyType
 	{
 	Specialization		"Cloud Technologies"
-	PerYear				0.1
+	PerYear				0.2
 	Min					0
 	Max					1
     Frameworks          False

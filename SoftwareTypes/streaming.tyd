@@ -13,7 +13,7 @@ SoftwareType
             Retention       45
             Iterative       0.40
             SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   ng_StrmSftw
+            NameGenerator   Streaming
             Features
                     [
                         {

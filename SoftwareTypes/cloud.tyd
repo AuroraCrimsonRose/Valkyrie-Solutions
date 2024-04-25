@@ -12,7 +12,7 @@ SoftwareType
             Retention       30
             Iterative       0.50
             SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   ng_CldSftw
+            NameGenerator   Cloud
             Features
                     [
                         {

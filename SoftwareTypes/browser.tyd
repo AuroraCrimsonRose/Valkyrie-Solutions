@@ -13,7 +13,7 @@ SoftwareType
             Retention       45
             Iterative       0.50
             SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   browserGen
+            NameGenerator   Browser
             Features
                     [
                         {
@@ -54,14 +54,14 @@ SoftwareType
                                             DevTime         3
                                             CodeArt         1
                                             Level           1
-                                            Submarkets      [ 0; 1; 0 ]
+                                            Submarkets      [ 1; 1; 0 ]
                                         }
                                         {
                                             Name            "Themes"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           2
-                                            Submarkets      [ 0; 1; 0 ]
+                                            Submarkets      [ 0; 2; 0 ]
                                         }
                                         {
                                             Name            "Sidebar"
@@ -69,14 +69,14 @@ SoftwareType
                                             DevTime         3
                                             CodeArt         1
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 1; 0 ]
                                         }
                                         {
                                             Name            "Developer Tools"
                                             DevTime         4
                                             CodeArt         1
                                             Level           2
-                                            Submarkets      [ 2; 1; 0 ]
+                                            Submarkets      [ 2; 0; 0 ]
                                         }
                                         {
                                             Name            "Integrated Search"
@@ -102,14 +102,14 @@ SoftwareType
                                             DevTime         3
                                             CodeArt         1
                                             Level           1
-                                            Submarkets      [ 2; 1; 0 ]
+                                            Submarkets      [ 2; 0; 0 ]
                                         }
                                         {
                                             Name            "Password Manager"
                                             DevTime         3
                                             CodeArt         1
                                             Level           1
-                                            Submarkets      [ 0; 0; 1 ]
+                                            Submarkets      [ 1; 0; 0 ]
                                         }   
                                         {
                                             Name            "Picture-in-Picture Mode"
@@ -117,7 +117,7 @@ SoftwareType
                                             DevTime         2
                                             CodeArt         1
                                             Level           1
-                                            Submarkets      [ 0; 1; 0 ]
+                                            Submarkets      [ 1; 1; 0 ]
                                         }
                                         {
                                             Name            "Download Manager"
@@ -132,7 +132,7 @@ SoftwareType
                                             DevTime         3
                                             CodeArt         1
                                             Level           1
-                                            Submarkets      [ 0; 0; 1 ]
+                                            Submarkets      [ 1; 0; 1 ]
                                         }
                                         {
                                             Name            "WebVR"
@@ -159,7 +159,7 @@ SoftwareType
                                             DevTime         3
                                             Level           1
                                             CodeArt         1
-                                            Submarkets      [ 1; 5; 0 ]
+                                            Submarkets      [ 3; 1; 0 ]
                                         }
                                     ]
                         }
@@ -212,7 +212,7 @@ SoftwareType
                                         DevTime         3
                                         Level           1
                                         CodeArt         1
-                                        Submarkets      [ 0; 0; 1 ]
+                                        Submarkets      [ 1; 0; 2 ]
                                         Server          0.00008
                                         }
                                         {
@@ -222,7 +222,7 @@ SoftwareType
                                             DevTime         4
                                             Level           2
                                             CodeArt         1
-                                            Submarkets      [ 1; 0; 1 ]
+                                            Submarkets      [ 1; 0; 2 ]
                                         }
                                     ]
                         }

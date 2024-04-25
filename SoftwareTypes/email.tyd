@@ -13,7 +13,7 @@ SoftwareType
             Retention       90
             Iterative       0.90
             SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   emailclient
+            NameGenerator   Email
             Features
                     [
                         {

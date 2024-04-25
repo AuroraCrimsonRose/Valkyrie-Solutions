@@ -13,7 +13,7 @@ SoftwareType
             Retention       30
             Iterative       0.60
             SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   ng_OcSftw
+            NameGenerator   Overlock
             Features
                     [
                         {
