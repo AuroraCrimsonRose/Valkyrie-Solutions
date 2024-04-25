@@ -54,13 +54,6 @@ SoftwareType
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2005
                                         }
-                                        {
-                                            Name            "Encoder"
-                                            DevTime         6
-                                            CodeArt         1
-                                            Level           1
-                                            Submarkets      [ 2; 1; 0 ]
-                                        }
                                     ]
                         }
 
@@ -91,6 +84,14 @@ SoftwareType
                         Submarkets      [ 1; 0; 0 ]
                         Features
                                     [
+                                        
+                                        {
+                                            Name            "Encoder"
+                                            DevTime         6
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 2; 1; 0 ]
+                                        }
                                         {
                                             Name            "DCT"
                                             DevTime         2
@@ -116,7 +117,7 @@ SoftwareType
                                         {
                                             Name            "VP8"
                                             DevTime         6
-                                            CodeArt         1
+                                            CodeArt         2
                                             Level           1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2008
@@ -124,7 +125,7 @@ SoftwareType
                                         {
                                             Name            "AV1"
                                             DevTime         5
-                                            CodeArt         1
+                                            CodeArt         3
                                             Level           1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2015
@@ -135,12 +136,13 @@ SoftwareType
             AddOns
 		            [
                         {
-                        Name		   "Expansion pack"
-                        Description    "Codecs"
-                        NameGenerator  GameExpansion
+                        Name		   "Additional Formats"
+                        Description    "Additional"
+                        NameGenerator  VideoExpansion
                         IdealPrice 	   20
-                        OptimalDevTime 8
-                        Retention      9
+                        OptimalDevTime 2
+                        Retention      10
+                        DependsOn  "Encoder"
                         Features
                                     [
                                         {
@@ -156,7 +158,7 @@ SoftwareType
                                             Name            "H.264"
                                             DevTime         8
                                             CodeArt         1
-                                            Level           1
+                                            Level           2
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2003
                                             DependsOn  "H.261"
@@ -165,7 +167,7 @@ SoftwareType
                                             Name            "H.265"
                                             DevTime         5
                                             CodeArt         1
-                                            Level           1
+                                            Level           2
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2013
                                             DependsOn  "H.261"
@@ -174,7 +176,7 @@ SoftwareType
                                             Name            "H.266"
                                             DevTime         3
                                             CodeArt         1
-                                            Level           1
+                                            Level           3
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2017
                                             DependsOn  "H.261"
@@ -183,8 +185,17 @@ SoftwareType
                                             Name            "VP9"
                                             DevTime         3
                                             CodeArt         1
-                                            Level           1
+                                            Level           2
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2012
                                             DependsOn  "VP8"
+                                        }
+                                        {
+                                            Name            "Theora"
+                                            DevTime         5
+                                            CodeArt         1
+                                            Level           2
+                                            Submarkets      [ 2; 1; 0 ]
+                                            Unlock          2015
+                                            DependsOn  "DCT"
                                         }
