@@ -250,6 +250,7 @@ SoftwareType
                             {
                             Name		   "Additional Schemas"
                             Description    "Additional Database Schemas"
+                            Spec           System
                             NameGenerator  DatabaseExpansion
                             IdealPrice 	   40
                             OptimalDevTime 10
