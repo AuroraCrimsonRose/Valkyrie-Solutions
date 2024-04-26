@@ -12,7 +12,7 @@ SoftwareType
             Popularity      0.10
             Retention       30
             Iterative       0.60
-            SubmarketNames  [ Functionality; Customization; Security ]
+            SubmarketNames  [ Functionality; Customization; Optimization ]
             NameGenerator   Overlock
             Features
                     [
@@ -27,17 +27,25 @@ SoftwareType
                                     [
                                         {
                                             Name            "User Interface"
-                                            DevTime         5
+                                            DevTime         2
                                             CodeArt         0.5
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
                                         {
-                                            Name            "Advanced Interface"
-                                            DevTime         9
+                                            Name            "Profiles"
+                                            DevTime         4
                                             CodeArt         0
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 1; 1 ]
+                                            Unlock          2005
+                                        }
+                                        {
+                                            Name            "Advanced Interface"
+                                            DevTime         6
+                                            CodeArt         0
+                                            Level           2
+                                            Submarkets      [ 2; 0; 1 ]
                                             Unlock          2011
                                         }
                                     ]
@@ -71,7 +79,7 @@ SoftwareType
                                             DevTime         12
                                             CodeArt         1
                                             Level           1
-                                            Submarkets      [ 2; 1; 0 ]
+                                            Submarkets      [ 2; 1; 1 ]
                                             Unlock          2012
                                         }
                                         {
@@ -87,7 +95,7 @@ SoftwareType
                                             DevTime         6
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 2; 1; 0 ]
+                                            Submarkets      [ 2; 1; 1 ]
                                             Unlock          2010
                                         }
                                     ]

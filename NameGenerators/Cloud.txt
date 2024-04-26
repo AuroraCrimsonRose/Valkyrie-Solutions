@@ -1,17 +1,13 @@
--start(pre,base,base,base,base)
--pre(base)
-The
-Open 
--base(base2,ext,stop)
-Air
-Cloud
+-start(base)
+-base(base2)
+Open
+Drop
+Quick
 Fast
-Sky
--base2(ext,stop)
+Magic
+-base2(stop)
+Box
 Cloud
-Drive
-Online
--ext(stop)
- Plus
- Premium
- Pro
+Data
+Storage
+Byte

@@ -43,8 +43,6 @@ Focus Home Interactive
 From Software
 Frontier Developments
 Gearbox Software
-Giants Software
-Google
 Gygabyte
 General Electric
 Hinterland Studios
@@ -102,6 +100,7 @@ Turn 10 Studios
 Ubisoft Entertainment
 Undead Labs
 Unknown Worlds Entertainment
+Valkyrie Development
 Valve Corporation
 VMware
 Warner Bros

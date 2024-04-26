@@ -1,6 +1,6 @@
 CompanyType
 	{
-	Specialization		"Video Technologies"
+	Specialization		"Visual Technologies"
 	PerYear				0.2
 	Min					1
 	Max					2

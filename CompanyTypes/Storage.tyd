@@ -1,0 +1,29 @@
+CompanyType
+	{
+	Specialization		"Storage Technologies"
+	PerYear				0.2
+	Min					0
+	Max					1
+    Frameworks          False
+	Types
+		[
+			{
+			Software	"Cloud Software"
+			Chance		0.75
+			Force		false
+			}
+			{
+			Software	"Database Management Software"
+			Chance		0.75
+			Force		false
+			}
+		]
+	Addons
+		[
+			{
+			Software	"Database Management Software"
+			Addon		"Additional Schemas"
+			Chance		0.15
+			}
+		]
+	}

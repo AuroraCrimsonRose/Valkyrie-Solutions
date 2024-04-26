@@ -1,13 +1,17 @@
 -start(base)
 -base(base2)
-Bloom
-Premiere
-Showtime
-Vegas
-Video
-Vlamey
+Clip
+Time
+Trim
+Mask
+Render
+Cut
 -base2(stop)
+Writer
 Editor
-Plus
- Pro
- Suite
+Script
+Premiere
+Studio
+Final
+Producer
+Caster
