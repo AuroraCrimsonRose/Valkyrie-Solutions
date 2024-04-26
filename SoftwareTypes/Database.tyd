@@ -96,17 +96,6 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 Unlock          2006
                                             }
-                                        ]
-                        }
-
-                        {
-                            Name            "Encoder"
-                            Spec            Encoding
-                            DevTime         2
-                            CodeArt         1
-                            Submarkets      [ 1; 0; 1 ]
-                            Features
-                                        [
                                             {
                                                 Name            "IDS"
                                                 Description     "Integrated Data Storage - Early Storage Schema"
@@ -264,7 +253,7 @@ SoftwareType
                                                 Level           0
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "IDS"
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "IBM R"
@@ -275,7 +264,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "IDS"
                                                 Unlock          2005
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Oracle"
@@ -286,7 +275,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 2 ]
                                                 DependsOn       "ANSi-SPARK"
                                                 Unlock          1979
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Ingres"
@@ -295,9 +284,9 @@ SoftwareType
                                                 CodeArt         1
                                                 Level           0
                                                 Submarkets      [ 1; 0; 1 ]
-                                                DependsOn       "SEQUEL"
+                                                DependsOn       "SQL-87"
                                                 Unlock          1979
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Kognito"
@@ -308,7 +297,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "Gemstone"
                                                 Unlock          1989
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "EssBase"
@@ -319,7 +308,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "Gemstone"
                                                 Unlock          1992
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "KDB"
@@ -330,7 +319,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 1 ]
                                                 DependsOn       "UML"
                                                 Unlock          1998
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "RDF"
@@ -341,7 +330,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 0 ]
                                                 DependsOn       "UML"
                                                 Unlock          2002
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Neo4J"
@@ -352,7 +341,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 0 ]
                                                 DependsOn       "Mark Logic"
                                                 Unlock          2007
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "MongoDB"
@@ -363,7 +352,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 1 ]
                                                 DependsOn       "Mark Logic"
                                                 Unlock          2009
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL-92"
@@ -374,7 +363,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          1992
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL-99"
@@ -385,7 +374,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          1999
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2003"
@@ -396,7 +385,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 2 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2003
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2006"
@@ -407,7 +396,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2006
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2008"
@@ -418,7 +407,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2008
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2011"
@@ -429,7 +418,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 2 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2011
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2016"
@@ -440,7 +429,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2016
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2019"
@@ -451,7 +440,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2019
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2023"
@@ -462,7 +451,7 @@ SoftwareType
                                                 Submarkets      [ 3; 0; 3 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2023
-                                                Spec            "Encoding"
+                                                Spec            "System"
                                             }
                                         ]
                             }

@@ -66,37 +66,6 @@ SoftwareType
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
-                                    ]
-                            }
-
-                        {
-                        Name            "Audio"
-                        Spec            Audio
-                        DevTime         2
-                        CodeArt         0.5
-                        Dependencies    "Audio Tool"
-                        Submarkets      [ 1; 1; 0 ]
-                        Features
-                                    [
-                                        {
-                                            Name            "Sound Effects"
-                                            DevTime         3
-                                            CodeArt         0.5
-                                            Level           1
-                                            Submarkets      [ 1; 0; 0 ]
-                                        }
-                                    ]
-                        }
-
-                        {
-                        Name            "Encoder"
-                        Spec            Encoding
-                        DevTime         2
-                        CodeArt         1
-                        Submarkets      [ 1; 0; 0 ]
-                        Features
-                                    [
-                                        
                                         {
                                             Name            "DCT"
                                             DevTime         2
@@ -136,6 +105,25 @@ SoftwareType
                                             Unlock          2015
                                         }
                                     ]
+                            }
+
+                        {
+                        Name            "Audio"
+                        Spec            Audio
+                        DevTime         2
+                        CodeArt         0.5
+                        Dependencies    "Audio Tool"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Sound Effects"
+                                            DevTime         3
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                    ]
                         }
                     ]
             AddOns
@@ -154,60 +142,66 @@ SoftwareType
                                             DevTime         6
                                             CodeArt         1
                                             Level           0
+                                            MaxFactor       1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          1996
                                             DependsOn       "H.261"
-                                            Spec            "Encoding"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "H.264"
                                             DevTime         8
                                             CodeArt         1
                                             Level           1
+                                            MaxFactor       1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2003
                                             DependsOn       "H.261"
-                                            Spec            "Encoding"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "H.265"
                                             DevTime         5
                                             CodeArt         1
                                             Level           1
+                                            MaxFactor       1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2013
                                             DependsOn       "H.261"
-                                            Spec            "Encoding"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "H.266"
                                             DevTime         3
                                             CodeArt         1
                                             Level           2
+                                            MaxFactor       1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2017
                                             DependsOn       "H.261"
-                                            Spec            "Encoding"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "VP9"
                                             DevTime         3
                                             CodeArt         1
                                             Level           1
+                                            MaxFactor       1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2012
                                             DependsOn       "VP8"
-                                            Spec            "Encoding"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "Theora"
                                             DevTime         5
                                             CodeArt         1
                                             Level           1
+                                            MaxFactor       1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2015
                                             DependsOn       "DCT"
-                                            Spec            "Encoding"
+                                            Spec            "System"
                                         }
                                     ]
                         }
