@@ -26,13 +26,6 @@ SoftwareType
                         Features
                                     [
                                         {
-                                            Name            "Custom Framerates"
-                                            DevTime         4
-                                            CodeArt         1
-                                            Level           1
-                                            Submarkets      [ 1; 0; 0 ]
-                                        }
-                                        {
                                             Name            "UI Customization"
                                             DevTime         5
                                             CodeArt         1
@@ -58,6 +51,25 @@ SoftwareType
                         }
 
                         {
+                            Name            "System"
+                            Spec            System
+                            DevTime         2
+                            CodeArt         0.5
+                            Dependencies    "Audio Tool"
+                            Submarkets      [ 1; 1; 0 ]
+                            Features
+                                    [
+                                        {
+                                            Name            "Custom Framerates"
+                                            DevTime         4
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                    ]
+                            }
+
+                        {
                         Name            "Audio"
                         Spec            Audio
                         DevTime         2
@@ -78,7 +90,7 @@ SoftwareType
 
                         {
                         Name            "Encoder"
-                        Spec            System
+                        Spec            Encoding
                         DevTime         2
                         CodeArt         1
                         Submarkets      [ 1; 0; 0 ]
@@ -145,7 +157,7 @@ SoftwareType
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          1996
                                             DependsOn       "H.261"
-                                            Spec            "System"
+                                            Spec            "Encoding"
                                         }
                                         {
                                             Name            "H.264"
@@ -155,7 +167,7 @@ SoftwareType
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2003
                                             DependsOn       "H.261"
-                                            Spec            "System"
+                                            Spec            "Encoding"
                                         }
                                         {
                                             Name            "H.265"
@@ -165,7 +177,7 @@ SoftwareType
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2013
                                             DependsOn       "H.261"
-                                            Spec            "System"
+                                            Spec            "Encoding"
                                         }
                                         {
                                             Name            "H.266"
@@ -175,7 +187,7 @@ SoftwareType
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2017
                                             DependsOn       "H.261"
-                                            Spec            "System"
+                                            Spec            "Encoding"
                                         }
                                         {
                                             Name            "VP9"
@@ -185,7 +197,7 @@ SoftwareType
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2012
                                             DependsOn       "VP8"
-                                            Spec            "System"
+                                            Spec            "Encoding"
                                         }
                                         {
                                             Name            "Theora"
@@ -195,7 +207,7 @@ SoftwareType
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2015
                                             DependsOn       "DCT"
-                                            Spec            "System"
+                                            Spec            "Encoding"
                                         }
                                     ]
                         }
