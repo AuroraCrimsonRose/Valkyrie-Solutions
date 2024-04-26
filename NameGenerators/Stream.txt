@@ -1,11 +1,11 @@
 -start(base)
 -base(base2)
-Live
-Open
-Content
-Channel
-Bit
-Byte
+Live 
+Open 
+Content 
+Channel 
+Bit 
+Byte 
 -base2(stop)
 Host
 Encoder

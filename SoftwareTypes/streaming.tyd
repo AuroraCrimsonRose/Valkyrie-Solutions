@@ -13,7 +13,7 @@ SoftwareType
             Retention       45
             Iterative       0.40
             SubmarketNames  [ Functionality; Customization; Optimization ]
-            NameGenerator   Streaming
+            NameGenerator   Stream
             Features
                     [
                         {

@@ -18,12 +18,12 @@ CompanyType
 			Force		True
 			}
 		]
-	Addons
-		[
-			{
-			Software	"Video Editor"
-			Addon		"Additional Formats"
-			Chance		0.15
-			}
-		]
+	# Addons
+	# 	[
+	# 		{
+	# 		Software	"Video Editor"
+	# 		Addon		"Additional Formats"
+	# 		Chance		0.15
+	# 		}
+	# 	]
 	}

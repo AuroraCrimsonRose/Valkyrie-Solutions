@@ -1,11 +1,11 @@
 -start(base)
 -base(base2)
-Clip
-Time
-Trim
-Mask
-Render
-Cut
+Clip 
+Time 
+Trim 
+Mask 
+Render 
+Cut 
 -base2(stop)
 Writer
 Editor

@@ -126,84 +126,84 @@ SoftwareType
                                     ]
                         }
                     ]
-            AddOns
-		            [
-                        {
-                        Name		   "Additional Formats"
-                        Description    "Additional Video Formats"
-                        NameGenerator  VideoExpansion
-                        IdealPrice 	   20
-                        OptimalDevTime 2
-                        Retention      10
-                        Features
-                                    [
-                                        {
-                                            Name            "H.262"
-                                            DevTime         6
-                                            CodeArt         1
-                                            Level           0
-                                            MaxFactor       1
-                                            Submarkets      [ 2; 1; 0 ]
-                                            Unlock          1996
-                                            DependsOn       "H.261"
-                                            Spec            "System"
-                                        }
-                                        {
-                                            Name            "H.264"
-                                            DevTime         8
-                                            CodeArt         1
-                                            Level           1
-                                            MaxFactor       1
-                                            Submarkets      [ 2; 1; 0 ]
-                                            Unlock          2003
-                                            DependsOn       "H.261"
-                                            Spec            "System"
-                                        }
-                                        {
-                                            Name            "H.265"
-                                            DevTime         5
-                                            CodeArt         1
-                                            Level           1
-                                            MaxFactor       1
-                                            Submarkets      [ 2; 1; 0 ]
-                                            Unlock          2013
-                                            DependsOn       "H.261"
-                                            Spec            "System"
-                                        }
-                                        {
-                                            Name            "H.266"
-                                            DevTime         3
-                                            CodeArt         1
-                                            Level           2
-                                            MaxFactor       1
-                                            Submarkets      [ 2; 1; 0 ]
-                                            Unlock          2017
-                                            DependsOn       "H.261"
-                                            Spec            "System"
-                                        }
-                                        {
-                                            Name            "VP9"
-                                            DevTime         3
-                                            CodeArt         1
-                                            Level           1
-                                            MaxFactor       1
-                                            Submarkets      [ 2; 1; 0 ]
-                                            Unlock          2012
-                                            DependsOn       "VP8"
-                                            Spec            "System"
-                                        }
-                                        {
-                                            Name            "Theora"
-                                            DevTime         5
-                                            CodeArt         1
-                                            Level           1
-                                            MaxFactor       1
-                                            Submarkets      [ 2; 1; 0 ]
-                                            Unlock          2015
-                                            DependsOn       "DCT"
-                                            Spec            "System"
-                                        }
-                                    ]
-                        }
-                    ]
+            # AddOns
+		    #         [
+            #             {
+            #             Name		   "Additional Formats"
+            #             Description    "Additional Video Formats"
+            #             NameGenerator  VideoExpansion
+            #             IdealPrice 	   20
+            #             OptimalDevTime 2
+            #             Retention      10
+            #             Features
+            #                         [
+            #                             {
+            #                                 Name            "H.262"
+            #                                 DevTime         6
+            #                                 CodeArt         1
+            #                                 Level           0
+            #                                 MaxFactor       1
+            #                                 Submarkets      [ 2; 1; 0 ]
+            #                                 Unlock          1996
+            #                                 DependsOn       "H.261"
+            #                                 Spec            "System"
+            #                             }
+            #                             {
+            #                                 Name            "H.264"
+            #                                 DevTime         8
+            #                                 CodeArt         1
+            #                                 Level           1
+            #                                 MaxFactor       1
+            #                                 Submarkets      [ 2; 1; 0 ]
+            #                                 Unlock          2003
+            #                                 DependsOn       "H.261"
+            #                                 Spec            "System"
+            #                             }
+            #                             {
+            #                                 Name            "H.265"
+            #                                 DevTime         5
+            #                                 CodeArt         1
+            #                                 Level           1
+            #                                 MaxFactor       1
+            #                                 Submarkets      [ 2; 1; 0 ]
+            #                                 Unlock          2013
+            #                                 DependsOn       "H.261"
+            #                                 Spec            "System"
+            #                             }
+            #                             {
+            #                                 Name            "H.266"
+            #                                 DevTime         3
+            #                                 CodeArt         1
+            #                                 Level           2
+            #                                 MaxFactor       1
+            #                                 Submarkets      [ 2; 1; 0 ]
+            #                                 Unlock          2017
+            #                                 DependsOn       "H.261"
+            #                                 Spec            "System"
+            #                             }
+            #                             {
+            #                                 Name            "VP9"
+            #                                 DevTime         3
+            #                                 CodeArt         1
+            #                                 Level           1
+            #                                 MaxFactor       1
+            #                                 Submarkets      [ 2; 1; 0 ]
+            #                                 Unlock          2012
+            #                                 DependsOn       "VP8"
+            #                                 Spec            "System"
+            #                             }
+            #                             {
+            #                                 Name            "Theora"
+            #                                 DevTime         5
+            #                                 CodeArt         1
+            #                                 Level           1
+            #                                 MaxFactor       1
+            #                                 Submarkets      [ 2; 1; 0 ]
+            #                                 Unlock          2015
+            #                                 DependsOn       "DCT"
+            #                                 Spec            "System"
+            #                             }
+            #                         ]
+            #             }
+            #         ]
         }

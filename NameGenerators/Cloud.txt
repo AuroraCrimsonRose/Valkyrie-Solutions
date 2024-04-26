@@ -1,10 +1,10 @@
 -start(base)
 -base(base2)
-Open
-Drop
-Quick
-Fast
-Magic
+Open 
+Drop 
+Quick 
+Fast 
+Magic 
 -base2(stop)
 Box
 Cloud
