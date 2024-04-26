@@ -144,7 +144,8 @@ SoftwareType
                                             Level           1
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          1996
-                                            DependsOn  "H.261"
+                                            DependsOn       "H.261"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "H.264"
@@ -153,7 +154,8 @@ SoftwareType
                                             Level           2
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2003
-                                            DependsOn  "H.261"
+                                            DependsOn       "H.261"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "H.265"
@@ -162,7 +164,8 @@ SoftwareType
                                             Level           2
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2013
-                                            DependsOn  "H.261"
+                                            DependsOn       "H.261"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "H.266"
@@ -171,7 +174,8 @@ SoftwareType
                                             Level           3
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2017
-                                            DependsOn  "H.261"
+                                            DependsOn       "H.261"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "VP9"
@@ -180,7 +184,8 @@ SoftwareType
                                             Level           2
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2012
-                                            DependsOn  "VP8"
+                                            DependsOn       "VP8"
+                                            Spec            "System"
                                         }
                                         {
                                             Name            "Theora"
@@ -189,7 +194,8 @@ SoftwareType
                                             Level           2
                                             Submarkets      [ 2; 1; 0 ]
                                             Unlock          2015
-                                            DependsOn  "DCT"
+                                            DependsOn       "DCT"
+                                            Spec            "System"
                                         }
                                     ]
                         }

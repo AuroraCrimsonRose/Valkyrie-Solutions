@@ -250,7 +250,6 @@ SoftwareType
                             {
                             Name		   "Additional Schemas"
                             Description    "Additional Database Schemas"
-                            Spec           System
                             NameGenerator  DatabaseExpansion
                             IdealPrice 	   40
                             OptimalDevTime 10
@@ -265,6 +264,7 @@ SoftwareType
                                                 Level           1
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "IDS"
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "IBM R"
@@ -275,6 +275,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "IDS"
                                                 Unlock          2005
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Oracle"
@@ -285,6 +286,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 2 ]
                                                 DependsOn       "ANSi-SPARK"
                                                 Unlock          1979
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Ingres"
@@ -295,6 +297,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 1 ]
                                                 DependsOn       "SEQUEL"
                                                 Unlock          1979
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Kognito"
@@ -305,6 +308,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "Gemstone"
                                                 Unlock          1989
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "EssBase"
@@ -315,6 +319,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "Gemstone"
                                                 Unlock          1992
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "KDB"
@@ -325,6 +330,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 1 ]
                                                 DependsOn       "UML"
                                                 Unlock          1998
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "RDF"
@@ -335,6 +341,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 0 ]
                                                 DependsOn       "UML"
                                                 Unlock          2002
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "Neo4J"
@@ -345,6 +352,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 0 ]
                                                 DependsOn       "Mark Logic"
                                                 Unlock          2007
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "MongoDB"
@@ -355,6 +363,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 1 ]
                                                 DependsOn       "Mark Logic"
                                                 Unlock          2009
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL-92"
@@ -365,6 +374,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          1992
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL-99"
@@ -375,6 +385,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          1999
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2003"
@@ -385,6 +396,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 2 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2003
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2006"
@@ -395,6 +407,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2006
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2008"
@@ -405,6 +418,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2008
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2011"
@@ -415,6 +429,7 @@ SoftwareType
                                                 Submarkets      [ 2; 0; 2 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2011
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2016"
@@ -425,6 +440,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2016
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2019"
@@ -435,6 +451,7 @@ SoftwareType
                                                 Submarkets      [ 1; 0; 0 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2019
+                                                Spec            "System"
                                             }
                                             {
                                                 Name            "SQL 2023"
@@ -445,6 +462,7 @@ SoftwareType
                                                 Submarkets      [ 3; 0; 3 ]
                                                 DependsOn       "SQL-87"
                                                 Unlock          2023
+                                                Spec            "System"
                                             }
                                         ]
                             }
