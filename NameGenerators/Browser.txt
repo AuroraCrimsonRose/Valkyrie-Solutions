@@ -1,23 +1,16 @@
 -start(base)
--base(base2, base3)
+-base(base2)
 Titanium
-Opus
 Cyber
-Curve
-Brink
-Swift
-Alcidae
-Rocky
-Cowardly
-Courageous
-Quantum
-Odyssey
-Dragon
-Flowstate
--base2(stop)
- Communicator
- Adventurer
- Browser
--base3(stop)
- Browser
+Opus
+Minimal
+Advanced
+Tungsten
+Steel
+Omni
 Web
+-base2(stop)
+Browser
+Explorer
+Adventurer
+Engine
