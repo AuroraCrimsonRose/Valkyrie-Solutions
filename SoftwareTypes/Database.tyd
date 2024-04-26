@@ -233,248 +233,248 @@ SoftwareType
                                             }
                                         ]
                             }
-                      ]
-            # AddOns
-            #         [
-            #                 {
-            #                 Name		   "Additional Schemas"
-            #                 Description    "Additional Database Schemas"
-            #                 NameGenerator  DatabaseExpansion
-            #                 IdealPrice 	   40
-            #                 OptimalDevTime 10
-            #                 Retention      20
-            #                 Features
-            #                             [
-            #                                 {
-            #                                     Name            "IMS"
-            #                                     Description     "Information Management System - Early Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "IDS"
-            #                                 }
-            #                                 {
-            #                                     Name            "IBM R"
-            #                                     Description     "IBM System R - Early Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "IDS"
-            #                                     Unlock          2005
-            #                                 }
-            #                                 {
-            #                                     Name            "Oracle"
-            #                                     Description     "Oracle - Logical Relationship Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         4
-            #                                     CodeArt         1
-            #                                     Level           1
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 2; 0; 2 ]
-            #                                     DependsOn       "ANSi-SPARK"
-            #                                     Unlock          1979
-            #                                 }
-            #                                 {
-            #                                     Name            "Ingres"
-            #                                     Description     "Ingres - Proprietary Logical Relationship Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 1 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          1979
-            #                                 }
-            #                                 {
-            #                                     Name            "Kognito"
-            #                                     Description     "In-Memory Database - Object Oriented Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "Gemstone"
-            #                                     Unlock          1989
-            #                                 }
-            #                                 {
-            #                                     Name            "EssBase"
-            #                                     Description     "EssBase Array Database - Multi-Dimensional Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "Gemstone"
-            #                                     Unlock          1992
-            #                                 }
-            #                                 {
-            #                                     Name            "KDB"
-            #                                     Description     "Keyed Database - Key / Multi-Value Scehma"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 1 ]
-            #                                     DependsOn       "UML"
-            #                                     Unlock          1998
-            #                                 }
-            #                                 {
-            #                                     Name            "RDF"
-            #                                     Description     "Ribosomal Database Project - Medical RNA Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         4
-            #                                     CodeArt         1
-            #                                     Level           1
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 2; 0; 0 ]
-            #                                     DependsOn       "UML"
-            #                                     Unlock          2002
-            #                                 }
-            #                                 {
-            #                                     Name            "Neo4J"
-            #                                     Description     "Property Graph Database - Reality Graphing Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         4
-            #                                     CodeArt         1
-            #                                     Level           1
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 2; 0; 0 ]
-            #                                     DependsOn       "Mark Logic"
-            #                                     Unlock          2007
-            #                                 }
-            #                                 {
-            #                                     Name            "MongoDB"
-            #                                     Description     "Document Oriented Database - Document Oriented Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         4
-            #                                     CodeArt         1
-            #                                     Level           1
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 2; 0; 1 ]
-            #                                     DependsOn       "Mark Logic"
-            #                                     Unlock          2009
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL-92"
-            #                                     Description     "Structured Query Language - Early Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          1992
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL-99"
-            #                                     Description     "Structured Query Language - Early Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          1999
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL 2003"
-            #                                     Description     "Structured Query Language - Modern Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         4
-            #                                     CodeArt         1
-            #                                     Level           1
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 2; 0; 2 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          2003
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL 2006"
-            #                                     Description     "Structured Query Language - Modern Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          2006
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL 2008"
-            #                                     Description     "Structured Query Language - Modern Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          2008
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL 2011"
-            #                                     Description     "Structured Query Language - Modern Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         4
-            #                                     CodeArt         1
-            #                                     Level           1
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 2; 0; 2 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          2011
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL 2016"
-            #                                     Description     "Structured Query Language - Modern Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          2016
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL 2019"
-            #                                     Description     "Structured Query Language - Modern Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         2
-            #                                     CodeArt         1
-            #                                     Level           0
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 1; 0; 0 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          2019
-            #                                 }
-            #                                 {
-            #                                     Name            "SQL 2023"
-            #                                     Description     "Structured Query Language - Modern Storage Schema"
-            #                                     Spec            "System"
-            #                                     DevTime         6
-            #                                     CodeArt         1
-            #                                     Level           2
-            #                                     MaxFactor       1
-            #                                     Submarkets      [ 3; 0; 3 ]
-            #                                     DependsOn       "SQL-87"
-            #                                     Unlock          2023
-            #                                 }
-            #                             ]
-            #                 }
-            #         ]
+                    ]
+            AddOns
+                    [
+                            {
+                            Name		   "Additional Schemas"
+                            Description    "Additional Database Schemas"
+                            NameGenerator  DatabaseExpansion
+                            IdealPrice 	   40
+                            OptimalDevTime 10
+                            Retention      20
+                            Features
+                                [
+                                    {
+                                        Name            "IMS"
+                                        Description     "Information Management System - Early Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "IDS"
+                                    }
+                                    {
+                                        Name            "IBM R"
+                                        Description     "IBM System R - Early Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "IDS"
+                                        Unlock          2005
+                                    }
+                                    {
+                                        Name            "Oracle"
+                                        Description     "Oracle - Logical Relationship Schema"
+                                        Spec            "System"
+                                        DevTime         4
+                                        CodeArt         1
+                                        Level           1
+                                        MaxFactor       1
+                                        Submarkets      [ 2; 0; 2 ]
+                                        DependsOn       "ANSi-SPARK"
+                                        Unlock          1979
+                                    }
+                                    {
+                                        Name            "Ingres"
+                                        Description     "Ingres - Proprietary Logical Relationship Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 1 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          1979
+                                    }
+                                    {
+                                        Name            "Kognito"
+                                        Description     "In-Memory Database - Object Oriented Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "Gemstone"
+                                        Unlock          1989
+                                    }
+                                    {
+                                        Name            "EssBase"
+                                        Description     "EssBase Array Database - Multi-Dimensional Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "Gemstone"
+                                        Unlock          1992
+                                    }
+                                    {
+                                        Name            "KDB"
+                                        Description     "Keyed Database - Key / Multi-Value Scehma"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 1 ]
+                                        DependsOn       "UML"
+                                        Unlock          1998
+                                    }
+                                    {
+                                        Name            "RDF"
+                                        Description     "Ribosomal Database Project - Medical RNA Schema"
+                                        Spec            "System"
+                                        DevTime         4
+                                        CodeArt         1
+                                        Level           1
+                                        MaxFactor       1
+                                        Submarkets      [ 2; 0; 0 ]
+                                        DependsOn       "UML"
+                                        Unlock          2002
+                                    }
+                                    {
+                                        Name            "Neo4J"
+                                        Description     "Property Graph Database - Reality Graphing Schema"
+                                        Spec            "System"
+                                        DevTime         4
+                                        CodeArt         1
+                                        Level           1
+                                        MaxFactor       1
+                                        Submarkets      [ 2; 0; 0 ]
+                                        DependsOn       "Mark Logic"
+                                        Unlock          2007
+                                    }
+                                    {
+                                        Name            "MongoDB"
+                                        Description     "Document Oriented Database - Document Oriented Schema"
+                                        Spec            "System"
+                                        DevTime         4
+                                        CodeArt         1
+                                        Level           1
+                                        MaxFactor       1
+                                        Submarkets      [ 2; 0; 1 ]
+                                        DependsOn       "Mark Logic"
+                                        Unlock          2009
+                                    }
+                                    {
+                                        Name            "SQL-92"
+                                        Description     "Structured Query Language - Early Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          1992
+                                    }
+                                    {
+                                        Name            "SQL-99"
+                                        Description     "Structured Query Language - Early Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          1999
+                                    }
+                                    {
+                                        Name            "SQL 2003"
+                                        Description     "Structured Query Language - Modern Storage Schema"
+                                        Spec            "System"
+                                        DevTime         4
+                                        CodeArt         1
+                                        Level           1
+                                        MaxFactor       1
+                                        Submarkets      [ 2; 0; 2 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          2003
+                                    }
+                                    {
+                                        Name            "SQL 2006"
+                                        Description     "Structured Query Language - Modern Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          2006
+                                    }
+                                    {
+                                        Name            "SQL 2008"
+                                        Description     "Structured Query Language - Modern Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          2008
+                                    }
+                                    {
+                                        Name            "SQL 2011"
+                                        Description     "Structured Query Language - Modern Storage Schema"
+                                        Spec            "System"
+                                        DevTime         4
+                                        CodeArt         1
+                                        Level           1
+                                        MaxFactor       1
+                                        Submarkets      [ 2; 0; 2 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          2011
+                                    }
+                                    {
+                                        Name            "SQL 2016"
+                                        Description     "Structured Query Language - Modern Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          2016
+                                    }
+                                    {
+                                        Name            "SQL 2019"
+                                        Description     "Structured Query Language - Modern Storage Schema"
+                                        Spec            "System"
+                                        DevTime         2
+                                        CodeArt         1
+                                        Level           0
+                                        MaxFactor       1
+                                        Submarkets      [ 1; 0; 0 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          2019
+                                    }
+                                    {
+                                        Name            "SQL 2023"
+                                        Description     "Structured Query Language - Modern Storage Schema"
+                                        Spec            "System"
+                                        DevTime         6
+                                        CodeArt         1
+                                        Level           2
+                                        MaxFactor       1
+                                        Submarkets      [ 3; 0; 3 ]
+                                        DependsOn       "SQL-87"
+                                        Unlock          2023
+                                    }
+                                ]
+                            }
+                    ]
                     
         }
                                             
