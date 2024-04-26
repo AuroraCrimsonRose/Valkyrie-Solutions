@@ -30,7 +30,7 @@ SoftwareType
                                                 Description     "For when you want a clean look"
                                                 DevTime         4
                                                 CodeArt         0.5
-                                                Level           0
+                                                Level           1
                                                 Submarkets      [ 2; 1; 0 ]
                                                 Unlock          1980
                                             }
@@ -39,7 +39,7 @@ SoftwareType
                                                 Description     "Remember your passwords"
                                                 DevTime         2
                                                 CodeArt         1
-                                                Level           0
+                                                Level           1
                                                 Submarkets      [ 2; 1; 0 ]
                                             }
                                             {
@@ -47,7 +47,7 @@ SoftwareType
                                                 Description     "For when you want it to remember all your databases"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 1; 0 ]
                                                 Unlock          1980
                                             }
@@ -67,7 +67,7 @@ SoftwareType
                                                 Description     "Allows you to create a local copy of a database for redundancy"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           0
+                                                Level           1
                                                 Submarkets      [ 2; 0; 0 ]
                                             }
                                             {
@@ -75,7 +75,7 @@ SoftwareType
                                                 Description     "Saves what your working on"
                                                 DevTime         2
                                                 CodeArt         1
-                                                Level           0
+                                                Level           1
                                                 Submarkets      [ 1; 1; 0 ]
                                             }
                                             {
@@ -83,7 +83,7 @@ SoftwareType
                                                 Description     "Lets you run scripts on your database"
                                                 DevTime         6
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 1; 0 ]
                                                 Unlock          1990
                                             }
@@ -92,7 +92,7 @@ SoftwareType
                                                 Description     "Saves your passwords as hashes instead of in a TXT file"
                                                 DevTime         2
                                                 CodeArt         0.5
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 1; 0; 0 ]
                                                 Unlock          2006
                                             }
@@ -112,7 +112,7 @@ SoftwareType
                                                 Description     "Integrated Data Storage - Early Storage Schema"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 0; 0 ]
                                             }
                                             {
@@ -120,7 +120,7 @@ SoftwareType
                                                 Description     "Structured Query Language - Early Storage Schema"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 0; 1 ]
                                             }
                                             {
@@ -128,7 +128,7 @@ SoftwareType
                                                 Description     "ANSi-SPARK - Early Storage Schema"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 0; 0 ]
                                             }
                                             {
@@ -136,7 +136,7 @@ SoftwareType
                                                 Description     "Gemstone Object Database - Object Oriented Schema"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 0; 0 ]
                                                 Unlock          1986
                                             }
@@ -145,7 +145,7 @@ SoftwareType
                                                 Description     "Unified Model Language - Object Oriented Schema"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 0; 1 ]
                                                 Unlock          1996
                                             }
@@ -154,7 +154,7 @@ SoftwareType
                                                 Description     "Document Graphing Database - Data Plotting Schema"
                                                 DevTime         2
                                                 CodeArt         1
-                                                Level           0
+                                                Level           1
                                                 Submarkets      [ 1; 0; 0 ]
                                                 Unlock          2003
                                             }
@@ -163,7 +163,7 @@ SoftwareType
                                                 Description     "Time Series Database - Time Plotting Schema"
                                                 DevTime         2
                                                 CodeArt         1
-                                                Level           0
+                                                Level           1
                                                 Submarkets      [ 1; 0; 0 ]
                                                 Unlock          2005
                                             }
@@ -172,7 +172,7 @@ SoftwareType
                                                 Description     "Open Source Database - Modern Storage Schema"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 0; 2 ]
                                                 Unlock          2008
                                             }
@@ -181,7 +181,7 @@ SoftwareType
                                                 Description     "In-Memory Database - Modern In-Memory Schema"
                                                 DevTime         4
                                                 CodeArt         1
-                                                Level           1
+                                                Level           2
                                                 Submarkets      [ 2; 0; 2 ]
                                                 Unlock          2008
                                             }
