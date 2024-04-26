@@ -5,10 +5,10 @@ Live
 Open
 Stream
 Streaming
-YSplit
+Split
 -base2(stop)
 Cast
 Caster
 Brake
- Source
- TV
+Source
+TV

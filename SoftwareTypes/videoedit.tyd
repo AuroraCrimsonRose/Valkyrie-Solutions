@@ -130,7 +130,7 @@ SoftwareType
 		            [
                         {
                         Name		   "Additional Formats"
-                        Description    "Additional"
+                        Description    "Additional Video Formats"
                         NameGenerator  VideoExpansion
                         IdealPrice 	   20
                         OptimalDevTime 2
@@ -191,3 +191,7 @@ SoftwareType
                                             Unlock          2015
                                             DependsOn  "DCT"
                                         }
+                                    ]
+                        }
+                    ]
+        }

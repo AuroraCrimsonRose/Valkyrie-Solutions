@@ -9,12 +9,12 @@ CompanyType
 		[
 			{
 			Software	"Video Editor"
-			Chance		1
+			Chance		0.75
 			Force		True
 			}
 			{
 			Software	"Streaming Software"
-			Chance		1
+			Chance		0.75
 			Force		True
 			}
 		]
