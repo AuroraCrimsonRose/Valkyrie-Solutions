@@ -1,12 +1,12 @@
 # Contributing to Valkyrie Solutions
 
-Thank you for considering contributing to [Your Project Name]! We appreciate your time and effort to make this project better.
+Thank you for considering contributing to Valkyrie Solutions! We appreciate your time and effort to make this project better.
 
 ## How to Contribute
 
 ### **Reporting Bugs**
 
-If you encounter any bugs or issues while using [Your Project Name], please feel free to [open an issue](https://github.com/AuroraCrimsonRose/Valkyrie-Solutions/issues) on GitHub. When reporting bugs, please provide as much detail as possible, including steps to reproduce the issue.
+If you encounter any bugs or issues while using Valkyrie Solutions, please feel free to [open an issue](https://github.com/AuroraCrimsonRose/Valkyrie-Solutions/issues) on GitHub. When reporting bugs, please provide as much detail as possible, including steps to reproduce the issue.
 
 ### **Requesting Features**
 
@@ -14,7 +14,7 @@ Have an idea for a new feature? We'd love to hear it! You can [open an issue](ht
 
 ### **Submitting Changes**
 
-We welcome contributions from the community! If you'd like to contribute to [Your Project Name], please follow these steps:
+We welcome contributions from the community! If you'd like to contribute to Valkyrie Solutions, please follow these steps:
 
 1. Fork the repository to your GitHub account.
 2. Create a new branch for your changes.
@@ -30,4 +30,4 @@ Please note that we have a [Code of Conduct](CODE_OF_CONDUCT.md) in place that w
 
 ## License
 
-By contributing to [Your Project Name], you agree that your contributions will be licensed under the [project's license](LICENCE.md).
+By contributing to Valkyrie Solutions, you agree that your contributions will be licensed under the [project's license](LICENCE.md).
