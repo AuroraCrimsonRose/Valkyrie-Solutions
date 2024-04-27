@@ -26,7 +26,7 @@ We welcome contributions from the community! If you'd like to contribute to [You
 
 ## Code of Conduct
 
-Please note that we have a [Code of Conduct]() in place that we expect all contributors to adhere to. By participating in this project, you agree to abide by its terms.
+Please note that we have a [Code of Conduct](CODE_OF_CONDUCT.md) in place that we expect all contributors to adhere to. By participating in this project, you agree to abide by its terms.
 
 ## License
 
