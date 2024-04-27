@@ -20,10 +20,6 @@ If you're experiencing issues or need assistance with the mod, feel free to open
 - Thank you to all contributors who help enhance this project.
 - Special thanks to the Software Inc community for their continuous support and valuable feedback.
 
-## About the Author
-
-Developed by AuraCrimsonRose, a dedicated Software Inc modder and community enthusiast. Follow me on GitHub or join our community discussions to stay informed about the latest updates.
-
 ---
 
 Enjoying Valkyrie Solutions? Consider starring this repository on GitHub to support the project!
