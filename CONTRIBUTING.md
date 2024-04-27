@@ -6,11 +6,11 @@ Thank you for considering contributing to [Your Project Name]! We appreciate you
 
 ### **Reporting Bugs**
 
-If you encounter any bugs or issues while using [Your Project Name], please feel free to [open an issue](link-to-issues) on GitHub. When reporting bugs, please provide as much detail as possible, including steps to reproduce the issue.
+If you encounter any bugs or issues while using [Your Project Name], please feel free to [open an issue](https://github.com/AuroraCrimsonRose/Valkyrie-Solutions/issues) on GitHub. When reporting bugs, please provide as much detail as possible, including steps to reproduce the issue.
 
 ### **Requesting Features**
 
-Have an idea for a new feature? We'd love to hear it! You can [open an issue](link-to-issues) on GitHub to request a new feature. Please describe the feature you'd like to see and how it would improve the project.
+Have an idea for a new feature? We'd love to hear it! You can [open an issue](https://github.com/AuroraCrimsonRose/Valkyrie-Solutions/issues) on GitHub to request a new feature. Please describe the feature you'd like to see and how it would improve the project.
 
 ### **Submitting Changes**
 
@@ -22,12 +22,12 @@ We welcome contributions from the community! If you'd like to contribute to [You
 4. Test your changes thoroughly.
 5. Commit your changes with clear and descriptive commit messages.
 6. Push your changes to your forked repository.
-7. [Open a pull request](link-to-pull-request) with a detailed description of your changes.
+7. [Open a pull request](https://github.com/AuroraCrimsonRose/Valkyrie-Solutions/issues) with a detailed description of your changes.
 
 ## Code of Conduct
 
-Please note that we have a [Code of Conduct](link-to-code-of-conduct) in place that we expect all contributors to adhere to. By participating in this project, you agree to abide by its terms.
+Please note that we have a [Code of Conduct]() in place that we expect all contributors to adhere to. By participating in this project, you agree to abide by its terms.
 
 ## License
 
-By contributing to [Your Project Name], you agree that your contributions will be licensed under the [project's license](link-to-license).
+By contributing to [Your Project Name], you agree that your contributions will be licensed under the [project's license](LICENCE.md).
