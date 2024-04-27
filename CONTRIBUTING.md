@@ -30,4 +30,4 @@ Please note that we have a [Code of Conduct](CODE_OF_CONDUCT.md) in place that w
 
 ## License
 
-By contributing to Valkyrie Solutions, you agree that your contributions will be licensed under the [project's license](LICENCE.md).
+By contributing to Valkyrie Solutions, you agree that your contributions will be licensed under the [project's license](LICENSE).
