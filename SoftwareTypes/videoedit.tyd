@@ -67,13 +67,6 @@ SoftwareType
                                             Submarkets      [ 1; 0; 0 ]
                                         }
                                         {
-                                            Name            "DCT"
-                                            DevTime         2
-                                            CodeArt         1
-                                            Level           1
-                                            Submarkets      [ 2; 1; 0 ]
-                                        }
-                                        {
                                             Name            "H.261"
                                             DevTime         6
                                             CodeArt         1
@@ -145,53 +138,62 @@ SoftwareType
                                     Level           0
                                     MaxFactor       1
                                     Submarkets      [ 2; 1; 0 ]
-                                    # Unlock          1996
-                                    # DependsOn       "H.261"
+                                    Unlock          1996
+                                    DependsOn       "H.261"
                                 }
-                                # {
-                                #     Name            "H.264"
-                                #     Spec            "System"
-                                #     DevTime         8
-                                #     CodeArt         1
-                                #     Level           1
-                                #     MaxFactor       1
-                                #     Submarkets      [ 2; 1; 0 ]
-                                #     Unlock          2003
-                                #     DependsOn       "H.261"
-                                # }
-                                # {
-                                #     Name            "H.265"
-                                #     Spec            "System"
-                                #     DevTime         5
-                                #     CodeArt         1
-                                #     Level           1
-                                #     MaxFactor       1
-                                #     Submarkets      [ 2; 1; 0 ]
-                                #     Unlock          2013
-                                #     DependsOn       "H.261"
-                                # }
-                                # {
-                                #     Name            "H.266"
-                                #     Spec            "System"
-                                #     DevTime         3
-                                #     CodeArt         1
-                                #     Level           2
-                                #     MaxFactor       1
-                                #     Submarkets      [ 2; 1; 0 ]
-                                #     Unlock          2017
-                                #     DependsOn       "H.261"
-                                # }
-                                # {
-                                #     Name            "VP9"
-                                #     Spec            "System"
-                                #     DevTime         3
-                                #     CodeArt         1
-                                #     Level           1
-                                #     MaxFactor       1
-                                #     Submarkets      [ 2; 1; 0 ]
-                                #     Unlock          2012
-                                #     DependsOn       "VP8"
-                                # }
+                                {
+                                    Name            "H.264"
+                                    Spec            "System"
+                                    DevTime         8
+                                    CodeArt         1
+                                    Level           1
+                                    MaxFactor       1
+                                    Submarkets      [ 2; 1; 0 ]
+                                    Unlock          2003
+                                    DependsOn       "H.261"
+                                }
+                                {
+                                    Name            "H.265"
+                                    Spec            "System"
+                                    DevTime         5
+                                    CodeArt         1
+                                    Level           1
+                                    MaxFactor       1
+                                    Submarkets      [ 2; 1; 0 ]
+                                    Unlock          2013
+                                    DependsOn       "H.261"
+                                }
+                                {
+                                    Name            "H.266"
+                                    Spec            "System"
+                                    DevTime         3
+                                    CodeArt         1
+                                    Level           2
+                                    MaxFactor       1
+                                    Submarkets      [ 2; 1; 0 ]
+                                    Unlock          2017
+                                    DependsOn       "H.261"
+                                }
+                                {
+                                    Name            "VP9"
+                                    Spec            "System"
+                                    DevTime         3
+                                    CodeArt         1
+                                    Level           1
+                                    MaxFactor       1
+                                    Submarkets      [ 2; 1; 0 ]
+                                    Unlock          2012
+                                    DependsOn       "VP8"
+                                }
+                                {
+                                    Name            "DCT"
+                                    Spec            "System"
+                                    DevTime         2
+                                    CodeArt         1
+                                    Level           1
+                                    MaxFactor       1
+                                    Submarkets      [ 2; 1; 0 ]
+                                }
                             ]
                         }
                     ]

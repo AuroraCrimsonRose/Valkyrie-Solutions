@@ -1,0 +1,412 @@
+﻿Software
+    {
+    Browser  [ "Browser"; "Used to Browse the World Wide Web" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { Toolbar "Toolbar" }
+        Feature
+            {
+            Tabs [ "Tabs"; "Multitasking" ]
+            }
+        Feature
+            {
+            VerticalTabs [ "Vertical Tabs"; "Multitask but Vertical" ]
+            }
+        Feature
+            {
+            GroupedTabs [ "Grouped Tabs"; "Multitask in Groups" ]
+            }
+        Feature { Themes "Themes" }
+        Feature
+            {
+            Sidebar [ "Sidebar"; "Easily Access to saved things" ]
+            }
+        Feature { DeveloperTools "Developer Tools" }
+        Feature
+            {
+            IntegratedSearch [ "Integrated Search"; "Search Directly from the UI" ]
+            }
+        Feature { System "System" }
+        Feature { Name "Bookmarks&History"; Value "Bookmarks & History" }
+        Feature { PasswordManager "Password Manager" }
+        Feature { Picture-in-PictureMode "Picture-in-Picture Mode" }
+        Feature { DownloadManager "Download Manager" }
+        Feature { IncognitoMode "Incognito Mode" }
+        Feature
+            {
+            WebVR [ "WebVR"; "Support VR web applications" ]
+            }
+        Feature
+            {
+            WebAR [ "WebAR"; "Support AR web applications" ]
+            }
+        Feature
+            {
+            ResourceManager
+                [
+                "Resource Manager"
+                "Easily limit the CPU, RAM, and network usage of the browser"
+                ]
+            }
+        Feature { Network "Network" }
+        Feature
+            {
+            AccountIntegration
+                [
+                "Account Integration"
+                "Save and transfer your bookmarks, history, and more!"
+                ]
+            }
+        Feature { IntegratedAdblock "Integrated Adblock" }
+        Feature { Plugins "Plugins" }
+        Feature { AIAssistantIntegration "AI Assistant Integration" }
+        Feature
+            {
+            VPN [ "VPN"; "Integrated VPN in your browser, sweet!" ]
+            }
+        Feature
+            {
+            HTTPSSocketSupport [ "HTTPS Socket Support"; "Verify who your connecting to" ]
+            }
+        ]
+    }
+
+Software
+    {
+    CloudSoftware [ "Cloud Software"; "Do robots dream of electric sheep?" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { PasswordProtection "Password Protection" }
+        Feature { AdvancedPasswordProtection "Advanced Password Protection" }
+        Feature { System "System" }
+        Feature { HDDServers "HDD Servers" }
+        Feature { HybridServers "Hybrid Servers" }
+        Feature { SSDServers "SSD Servers" }
+        Feature { EncryptionAlgorithm "Encryption Algorithm" }
+        Feature { VirusProtection "Virus Protection" }
+        Feature { DDOSProtection "DDOS Protection" }
+        ]
+    }
+
+Software
+    {
+    DatabaseManagementSoftware
+        [
+        "Database Management Software"
+        "Used to manage the database LadysMan217's account is stored in"
+        ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature
+            {
+            GUI [ "GUI"; "For when you want a clean look" ]
+            }
+        Feature
+            {
+            PasswordManager [ "Password Manager"; "Remember your passwords" ]
+            }
+        Feature
+            {
+            DatabaseMemory
+                [
+                "Database Memory"
+                "For when you want it to remember all your databases"
+                ]
+            }
+        Feature { System "System" }
+        Feature
+            {
+            LocalBackups
+                [
+                "Local Backups"
+                "Allows you to create a local copy of a database for redundancy"
+                ]
+            }
+        Feature
+            {
+            AutoSaving [ "Auto Saving"; "Saves what your working on" ]
+            }
+        Feature
+            {
+            ScriptSupport [ "Script Support"; "Lets you run scripts on your database" ]
+            }
+        Feature
+            {
+            AdvancedPasswordProtection
+                [
+                "Advanced Password Protection"
+                "Saves your passwords as hashes instead of in a TXT file"
+                ]
+            }
+        Feature
+            {
+            IDS [ "IDS"; "Integrated Data Storage - Early Storage Schema" ]
+            }
+        Feature
+            {
+            SQL-87 [ "SQL-87"; "Structured Query Language - Early Storage Schema" ]
+            }
+        Feature
+            {
+            ANSi-SPARK [ "ANSi-SPARK"; "ANSi-SPARK - Early Storage Schema" ]
+            }
+        Feature
+            {
+            Gemstone [ "Gemstone"; "Gemstone Object Database - Object Oriented Schema" ]
+            }
+        Feature
+            {
+            UML [ "UML"; "Unified Model Language - Object Oriented Schema" ]
+            }
+        Feature
+            {
+            MarkLogic [ "Mark Logic"; "Document Graphing Database - Data Plotting Schema" ]
+            }
+        Feature
+            {
+            Streambase [ "Streambase"; "Time Series Database - Time Plotting Schema" ]
+            }
+        Feature
+            {
+            Hive [ "Hive"; "Open Source Database - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            ApacheSpark [ "Apache Spark"; "In-Memory Database - Modern In-Memory Schema" ]
+            }
+        Feature { Network "Network" }
+        Feature
+            {
+            RemoteBackups
+                [
+                "Remote Backups"
+                "Allows you to create a remote copy of a database for redundancy"
+                ]
+            }
+        Feature
+            {
+            SyncedAccounts
+                [
+                "Synced Accounts"
+                "Allows you to sync your settings and passwords regardless of what you're using"
+                ]
+            }
+        Feature
+            {
+            OptimizedProtocals
+                [
+                "Optimized Protocals"
+                "Makes it talk to the internet more efficiently"
+                ]
+            }
+        Feature
+            {
+            Encryption [ "Encryption"; "Securing your connection" ]
+            }
+        Feature
+            {
+            AutoUpdate [ "Auto Update"; "Keeps your application secure and up to date" ]
+            }
+        Feature
+            {
+            IBMR [ "IBM R"; "IBM System R - Early Storage Schema" ]
+            }
+        Feature
+            {
+            Oracle [ "Oracle"; "Oracle - Logical Relationship Schema" ]
+            }
+        Feature
+            {
+            Ingres [ "Ingres"; "Ingres - Proprietary Logical Relationship Schema" ]
+            }
+        Feature
+            {
+            Kognito [ "Kognito"; "In-Memory Database - Object Oriented Schema" ]
+            }
+        Feature
+            {
+            EssBase [ "EssBase"; "EssBase Array Database - Multi-Dimensional Schema" ]
+            }
+        Feature
+            {
+            KDB [ "KDB"; "Keyed Database - Key / Multi-Value Scehma" ]
+            }
+        Feature
+            {
+            RDF [ "RDF"; "Ribosomal Database Project - Medical RNA Schema" ]
+            }
+        Feature
+            {
+            Neo4J [ "Neo4J"; "Property Graph Database - Reality Graphing Schema" ]
+            }
+        Feature
+            {
+            MongoDB [ "MongoDB"; "Document Oriented Database - Document Oriented Schema" ]
+            }
+        Feature
+            {
+            SQL-92 [ "SQL-92"; "Structured Query Language - Early Storage Schema" ]
+            }
+        Feature
+            {
+            SQL-99 [ "SQL-99"; "Structured Query Language - Early Storage Schema" ]
+            }
+        Feature
+            {
+            SQL2003 [ "SQL 2003"; "Structured Query Language - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            SQL2006 [ "SQL 2006"; "Structured Query Language - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            SQL2008 [ "SQL 2008"; "Structured Query Language - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            SQL2011 [ "SQL 2011"; "Structured Query Language - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            SQL2016 [ "SQL 2016"; "Structured Query Language - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            SQL2019 [ "SQL 2019"; "Structured Query Language - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            SQL2023 [ "SQL 2023"; "Structured Query Language - Modern Storage Schema" ]
+            }
+        Feature
+            {
+            IMS [ "IMS"; "Information Management System - Early Storage Schema" ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            AdditionalSchemas [ "Additional Schemas"; "Additional Database Schemas" ]
+            }
+        ]
+    }
+
+Software
+    {
+    EmailClient [ "Email Client"; "Used to Browse the World Wide Web" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { UserInterface "User Interface" }
+        Feature { AdvancedUserInterface "Advanced User Interface" }
+        Feature { Filters "Filters" }
+        Feature { LayoutSupport "Layout Support" }
+        Feature { Attachments "Attachments" }
+        Feature { FilePreview "File Preview" }
+        Feature { System "System" }
+        Feature { AutoSave "Auto Save" }
+        Feature { AutoCorrect "Auto Correct" }
+        Feature { SpamFilter "Spam Filter" }
+        Feature { VirusScanner "Virus Scanner" }
+        Feature { Encryption "Encryption" }
+        ]
+    }
+
+Software
+    {
+    OverclockingSoftware [ "Overclocking Software"; "Make your hardware run faster" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { UserInterface "User Interface" }
+        Feature { Profiles "Profiles" }
+        Feature { AdvancedInterface "Advanced Interface" }
+        Feature { System "System" }
+        Feature { CPUOverclocking "CPU Overclocking" }
+        Feature { GPUOverclocking "GPU Overclocking" }
+        Feature { AutomaticOverclocking "Automatic Overclocking" }
+        Feature { FanControl "Fan Control" }
+        Feature { AutomaticFanControl "Automatic Fan Control" }
+        ]
+    }
+
+Software
+    {
+    StreamingSoftware [ "Streaming Software"; "Used to show things in real time" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { BasicInterface "Basic Interface" }
+        Feature { TextinStream "Text in Stream" }
+        Feature { StreamOverlays "Stream Overlays" }
+        Feature { AdvancedInterface "Advanced Interface" }
+        Feature { System "System" }
+        Feature { Recording "Recording" }
+        Feature { Profiles "Profiles" }
+        Feature { GameOptimization "Game Optimization" }
+        Feature { Audio "Audio" }
+        Feature { MusicinStream "Music in Stream" }
+        Feature { SoundEffects "Sound Effects" }
+        ]
+    }
+
+Software
+    {
+    VideoEditor [ "Video Editor"; "Be able to edit videos" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { UICustomization "UI Customization" }
+        Feature { SpecialEffects "Special Effects" }
+        Feature { HDSupport "HD Support" }
+        Feature { System "System" }
+        Feature { CustomFramerates "Custom Framerates" }
+        Feature { H261 "H.261" }
+        Feature { Theora "Theora" }
+        Feature { VP8 "VP8" }
+        Feature { AV1 "AV1" }
+        Feature { Audio "Audio" }
+        Feature { SoundEffects "Sound Effects" }
+        Feature { H262 "H.262" }
+        Feature { H264 "H.264" }
+        Feature { H265 "H.265" }
+        Feature { H266 "H.266" }
+        Feature { VP9 "VP9" }
+        Feature { DCT "DCT" }
+        ]
+    Categories
+        [
+        Category
+            {
+            AdditionalFormats [ "Additional Formats"; "Additional Video Formats" ]
+            }
+        ]
+    }
+
+Software
+    {
+    VOIP     [ "VOIP"; "For keeping in touch with the world" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { AdvancedUserInterface "Advanced User Interface" }
+        Feature { BasicMessagingClient "Basic Messaging Client" }
+        Feature { InstantMessaging "Instant Messaging" }
+        Feature { Emoticons "Emoticons" }
+        Feature { PicturesandVideos "Pictures and Videos" }
+        Feature { Attachments "Attachments" }
+        Feature { System "System" }
+        Feature { VOIP "VOIP" }
+        Feature { VideoChat "Video Chat" }
+        Feature { ConferenceCalls "Conference Calls" }
+        Feature { Encryption "Encryption" }
+        ]
+    }
+
+Hardware { }
+
