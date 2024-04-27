@@ -1,1 +1,30 @@
-Me learning how to mod Software Inc.
+# Valkyrie Solutions Mod for Software Inc
+
+Welcome to the Valkyrie Solutions Mod for Software Inc! This mod is designed to elevate your gameplay by introducing new software options and real-world company names, making your experience more immersive and realistic.
+
+## Features
+
+- **Real Company Names**: Play with company names that reflect real-world businesses, enhancing the realism of your game.
+- **Expanded Software Options**: Broaden your company's horizons with a variety of new software types, adding depth and challenge.
+
+## Contributing
+
+Your contributions are invaluable to the development of Valkyrie Solutions! For contribution guidelines, please see our [CONTRIBUTIONS.md](CONTRIBUTIONS.md) file. Whether you're reporting bugs, suggesting new features, or making code contributions, we welcome your input.
+
+## Support
+
+If you're experiencing issues or need assistance with the mod, feel free to open an issue on our GitHub page. We are here to help and appreciate your feedback to improve the mod.
+
+## Acknowledgments
+
+- Thank you to all contributors who help enhance this project.
+- Special thanks to the Software Inc community for their continuous support and valuable feedback.
+
+## About the Author
+
+Developed by AuraCrimsonRose, a dedicated Software Inc modder and community enthusiast. Follow me on GitHub or join our community discussions to stay informed about the latest updates.
+
+---
+
+Enjoying Valkyrie Solutions? Consider starring this repository on GitHub to support the project!
+
