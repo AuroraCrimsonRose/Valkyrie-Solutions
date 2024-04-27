@@ -9,7 +9,7 @@ Welcome to the Valkyrie Solutions Mod for Software Inc! This mod is designed to 
 
 ## Contributing
 
-Your contributions are invaluable to the development of Valkyrie Solutions! For contribution guidelines, please see our [CONTRIBUTIONS.md](CONTRIBUTIONS.md) file. Whether you're reporting bugs, suggesting new features, or making code contributions, we welcome your input.
+Your contributions are invaluable to the development of Valkyrie Solutions! For contribution guidelines, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file. Whether you're reporting bugs, suggesting new features, or making code contributions, we welcome your input.
 
 ## Support
 
