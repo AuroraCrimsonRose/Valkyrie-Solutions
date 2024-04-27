@@ -22,7 +22,7 @@ We welcome contributions from the community! If you'd like to contribute to [You
 4. Test your changes thoroughly.
 5. Commit your changes with clear and descriptive commit messages.
 6. Push your changes to your forked repository.
-7. [Open a pull request](https://github.com/AuroraCrimsonRose/Valkyrie-Solutions/issues) with a detailed description of your changes.
+7. [Open a pull request](https://github.com/AuroraCrimsonRose/Valkyrie-Solutions/pulls) with a detailed description of your changes.
 
 ## Code of Conduct
 
