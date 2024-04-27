@@ -1,0 +1,415 @@
+﻿Software
+    {
+    Browser  [ "Navegador"; "Usado para navegar na World Wide Web" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { Toolbar "Barra de Ferramentas" }
+        Feature
+            {
+            Tabs [ "Guias"; "Multitarefa" ]
+            }
+        Feature
+            {
+            VerticalTabs [ "Guias Verticais"; "Multitarefa, mas Vertical" ]
+            }
+        Feature
+            {
+            GroupedTabs [ "Guias Agrupadas"; "Multitarefa em Grupos" ]
+            }
+        Feature { Themes "Temas" }
+        Feature
+            {
+            Sidebar [ "Barra Lateral"; "Acesso fácil às coisas salvas" ]
+            }
+        Feature { DeveloperTools "Ferramentas de Desenvolvedor" }
+        Feature
+            {
+            IntegratedSearch [ "Pesquisa Integrada"; "Pesquise diretamente na interface do usuário" ]
+            }
+        Feature { System "Sistema" }
+        Feature { Name "Favoritos&Histórico"; Valor "Favoritos e Histórico" }
+        Feature { PasswordManager "Gerenciador de Senhas" }
+        Feature { Picture-in-PictureMode "Modo Picture-in-Picture" }
+        Feature { DownloadManager "Gerenciador de Downloads" }
+        Feature { IncognitoMode "Modo Anônimo" }
+        Feature
+            {
+            WebVR [ "WebVR"; "Suporte para aplicativos web de realidade virtual" ]
+            }
+        Feature
+            {
+            WebAR [ "WebAR"; "Suporte para aplicativos web de realidade aumentada" ]
+            }
+        Feature
+            {
+            ResourceManager
+                [
+                "Resource Manager"
+                "Limite facilmente o uso da CPU, RAM e da rede do navegador"
+                ]
+            }
+        Feature { Network "Rede" }
+        Feature
+            {
+            AccountIntegration
+                [
+                "Account Integration"
+                "Salve e transfira seus favoritos, histórico e muito mais!"
+                ]
+            }
+        Feature { IntegratedAdblock "Adblock Integrado" }
+        Feature { Plugins "Plugins" }
+        Feature { AIAssistantIntegration "Integração de Assistente de IA" }
+        Feature
+            {
+            VPN [ "VPN"; "VPN integrada em seu navegador, legal!" ]
+            }
+        Feature
+            {
+            HTTPSSocketSupport [ "Suporte a Soquete HTTPS"; "Verifique com quem você está se conectando" ]
+            }
+        ]
+    }
+
+Software
+    {
+    CloudSoftware [ "Software de Nuvem"; "Os robôs sonham com ovelhas elétricas?" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { PasswordProtection "Proteção de Senha" }
+        Feature { AdvancedPasswordProtection "Proteção Avançada de Senha" }
+        Feature { System "Sistema" }
+        Feature { HDDServers "Servidores HDD" }
+        Feature { HybridServers "Servidores Híbridos" }
+        Feature { SSDServers "Servidores SSD" }
+        Feature { EncryptionAlgorithm "Algoritmo de Criptografia" }
+        Feature { VirusProtection "Proteção contra Vírus" }
+        Feature { DDOSProtection "Proteção contra DDOS" }
+        ]
+    }
+
+Software
+    {
+    DatabaseManagementSoftware
+        [
+        "Software de Gerenciamento de Banco de Dados"
+        "Usado para gerenciar o banco de dados onde a conta de LadysMan217 está armazenada"
+        ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature
+            {
+            GUI [ "GUI"; "Para quando você quer uma aparência limpa" ]
+            }
+        Feature
+            {
+            PasswordManager [ "Gerenciador de Senhas"; "Lembre-se de suas senhas" ]
+            }
+        Feature
+            {
+            DatabaseMemory
+                [
+                "Memória do Banco de Dados"
+                "Quando você quer que ele lembre todos os seus bancos de dados"
+                ]
+            }
+        Feature { System "Sistema" }
+        Feature
+            {
+            LocalBackups
+                [
+                "Backups Locais"
+                "Permite que você crie uma cópia local de um banco de dados para redundância"
+                ]
+            }
+        Feature
+            {
+            AutoSaving [ "Salvamento Automático"; "Salva o que você está trabalhando" ]
+            }
+        Feature
+            {
+            ScriptSupport [ "Suporte a Scripts"; "Permite que você execute scripts em seu banco de dados" ]
+            }
+        Feature
+            {
+            AdvancedPasswordProtection
+                [
+                "Proteção Avançada de Senha"
+                "Salva suas senhas como hashes em vez de em um arquivo TXT"
+                ]
+            }
+        Feature
+            {
+            IDS [ "IDS"; "Armazenamento de Dados Integrado - Esquema de Armazenamento Inicial" ]
+            }
+        Feature
+            {
+            SQL-87 [ "SQL-87"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Inicial" ]
+            }
+        Feature
+            {
+            ANSi-SPARK [ "ANSi-SPARK"; "ANSi-SPARK - Esquema de Armazenamento Inicial" ]
+            }
+        Feature
+            {
+            Gemstone [ "Gemstone"; "Banco de Dados de Objetos Gemstone - Esquema Orientado a Objetos" ]
+            }
+        Feature
+            {
+            UML [ "UML"; "Linguagem de Modelo Unificada - Esquema Orientado a Objetos" ]
+            }
+        Feature
+            {
+            MarkLogic [ "Mark Logic"; "Banco de Dados de Gráficos de Documentos - Esquema de Plotagem de Dados" ]
+            }
+        Feature
+            {
+            Streambase [ "Streambase"; "Banco de Dados de Séries Temporais - Esquema de Plotagem Temporal" ]
+            }
+        Feature
+            {
+            Hive [ "Hive"; "Banco de Dados de Código Aberto - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            ApacheSpark [ "Apache Spark"; "Banco de Dados em Memória - Esquema Moderno em Memória" ]
+            }
+        Feature { Network "Rede" }
+        Feature
+            {
+            RemoteBackups
+                [
+                "Backups Remotos"
+                "Permite que você crie uma cópia remota de um banco de dados para redundância"
+                ]
+            }
+        Feature
+            {
+            SyncedAccounts
+                [
+                "Contas Sincronizadas"
+                "Permite que você sincronize suas configurações e senhas, independentemente do que você está usando"
+                ]
+            }
+        Feature
+            {
+            OptimizedProtocals
+                [
+                "Protocolos Otimizados"
+                "Faz com que ele se comunique com a internet de maneira mais eficiente
+
+"
+                ]
+            }
+        Feature
+            {
+            Encryption [ "Criptografia"; "Segurança de sua conexão" ]
+            }
+        Feature
+            {
+            AutoUpdate [ "Atualização Automática"; "Mantém seu aplicativo seguro e atualizado" ]
+            }
+        Feature
+            {
+            IBMR [ "IBM R"; "IBM System R - Esquema de Armazenamento Inicial" ]
+            }
+        Feature
+            {
+            Oracle [ "Oracle"; "Oracle - Esquema de Relacionamento Lógico" ]
+            }
+        Feature
+            {
+            Ingres [ "Ingres"; "Ingres - Esquema de Relacionamento Lógico Proprietário" ]
+            }
+        Feature
+            {
+            Kognito [ "Kognito"; "Banco de Dados em Memória - Esquema Orientado a Objetos" ]
+            }
+        Feature
+            {
+            EssBase [ "EssBase"; "Banco de Dados de Matriz EssBase - Esquema Multidimensional" ]
+            }
+        Feature
+            {
+            KDB [ "KDB"; "Banco de Dados Indexado - Esquema de Chave/Valor Múltiplo" ]
+            }
+        Feature
+            {
+            RDF [ "RDF"; "Projeto de Banco de Dados Ribossômico - Esquema de RNA Médica" ]
+            }
+        Feature
+            {
+            Neo4J [ "Neo4J"; "Banco de Dados de Gráfico de Propriedades - Esquema de Gráficos de Realidade" ]
+            }
+        Feature
+            {
+            MongoDB [ "MongoDB"; "Banco de Dados Orientado a Documentos - Esquema Orientado a Documentos" ]
+            }
+        Feature
+            {
+            SQL-92 [ "SQL-92"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Inicial" ]
+            }
+        Feature
+            {
+            SQL-99 [ "SQL-99"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Inicial" ]
+            }
+        Feature
+            {
+            SQL2003 [ "SQL 2003"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            SQL2006 [ "SQL 2006"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            SQL2008 [ "SQL 2008"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            SQL2011 [ "SQL 2011"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            SQL2016 [ "SQL 2016"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            SQL2019 [ "SQL 2019"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            SQL2023 [ "SQL 2023"; "Linguagem de Consulta Estruturada - Esquema de Armazenamento Moderno" ]
+            }
+        Feature
+            {
+            IMS [ "IMS"; "Sistema de Gerenciamento de Informações - Esquema de Armazenamento Inicial" ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            AdditionalSchemas [ "Esquemas Adicionais"; "Esquemas de Banco de Dados Adicionais" ]
+            }
+        ]
+    }
+
+Software
+    {
+    EmailClient [ "Cliente de Email"; "Usado para navegar na World Wide Web" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { UserInterface "Interface do Usuário" }
+        Feature { AdvancedUserInterface "Interface de Usuário Avançada" }
+        Feature { Filters "Filtros" }
+        Feature { LayoutSupport "Suporte de Layout" }
+        Feature { Attachments "Anexos" }
+        Feature { FilePreview "Visualização de Arquivos" }
+        Feature { System "Sistema" }
+        Feature { AutoSave "Salvar Automaticamente" }
+        Feature { AutoCorrect "Correção Automática" }
+        Feature { SpamFilter "Filtro de Spam" }
+        Feature { VirusScanner "Scanner de Vírus" }
+        Feature { Encryption "Criptografia" }
+        ]
+    }
+
+Software
+    {
+    OverclockingSoftware [ "Software de Overclocking"; "Faça seu hardware funcionar mais rápido" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { UserInterface "Interface do Usuário" }
+        Feature { Profiles "Perfis" }
+        Feature { AdvancedInterface "Interface Avançada" }
+        Feature { System "Sistema" }
+        Feature { CPUOverclocking "Overclocking de CPU" }
+        Feature { GPUOverclocking "Overclocking de GPU" }
+        Feature { AutomaticOverclocking "Overclocking Automático" }
+        Feature { FanControl "Controle de Ventoinha" }
+        Feature { AutomaticFanControl "Controle Automático de Ventoinha" }
+        ]
+    }
+
+Software
+    {
+    StreamingSoftware [ "Software de Streaming"; "Usado para mostrar coisas em tempo real" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { BasicInterface "Interface Básica" }
+        Feature { TextinStream "Texto no Stream" }
+        Feature { StreamOverlays "Sobreposições de Stream" }
+        Feature { AdvancedInterface "Interface Avançada" }
+        Feature { System "Sistema" }
+        Feature { Recording "Gravação" }
+        Feature { Profiles "Perfis" }
+        Feature { GameOptimization "Otimização de Jogo" }
+        Feature { Audio "Áudio" }
+        Feature { MusicinStream "Música no Stream" }
+        Feature { SoundEffects "Efeitos Sonoros" }
+        ]
+    }
+
+Software
+    {
+    VideoEditor [ "Editor de Vídeo"; "Seja capaz de editar vídeos" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { UICustomization "Customização da Interface do Usuário" }
+        Feature { SpecialEffects "Efeitos Especiais" }
+        Feature { HDSupport "Suporte HD" }
+        Feature { System "Sistema" }
+        Feature { CustomFramerates "Taxas de Quadros Personalizadas" }
+        Feature { H261 "H.261" }
+        Feature { Theora "Theora" }
+        Feature { VP8 "VP8" }
+        Feature { AV1 "AV1" }
+        Feature { Audio "Áudio" }
+        Feature { SoundEffects "Efeitos Sonoros" }
+        Feature { H262 "H.262"
+
+ }
+        Feature { H264 "H.264" }
+        Feature { H265 "H.265" }
+        Feature { H266 "H.266" }
+        Feature { VP9 "VP9" }
+        Feature { DCT "DCT" }
+        ]
+    Categories
+        [
+        Category
+            {
+            AdditionalFormats [ "Formatos Adicionais"; "Formatos de Vídeo Adicionais" ]
+            }
+        ]
+    }
+
+Software
+    {
+    VOIP     [ "VOIP"; "Para manter contato com o mundo" ]
+    Features
+        [
+        Feature { Interface "Interface" }
+        Feature { AdvancedUserInterface "Interface de Usuário Avançada" }
+        Feature { BasicMessagingClient "Cliente de Mensagens Básicas" }
+        Feature { InstantMessaging "Mensagens Instantâneas" }
+        Feature { Emoticons "Emoticons" }
+        Feature { PicturesandVideos "Imagens e Vídeos" }
+        Feature { Attachments "Anexos" }
+        Feature { System "Sistema" }
+        Feature { VOIP "VOIP" }
+        Feature { VideoChat "Chat de Vídeo" }
+        Feature { ConferenceCalls "Chamadas de Conferência" }
+        Feature { Encryption "Criptografia" }
+        ]
+    }
+
+Hardware { }

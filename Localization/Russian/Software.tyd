@@ -1,0 +1,415 @@
+﻿Software
+    {
+    Browser  [ "Браузер"; "Используется для просмотра Всемирной паутины" ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature { Toolbar "Панель инструментов" }
+        Feature
+            {
+            Tabs [ "Вкладки"; "Многозадачность" ]
+            }
+        Feature
+            {
+            VerticalTabs [ "Вертикальные вкладки"; "Многозадачность в вертикальном положении" ]
+            }
+        Feature
+            {
+            GroupedTabs [ "Сгруппированные вкладки"; "Многозадачность в группах" ]
+            }
+        Feature { Themes "Темы" }
+        Feature
+            {
+            Sidebar [ "Боковая панель"; "Легкий доступ к сохраненным элементам" ]
+            }
+        Feature { DeveloperTools "Инструменты разработчика" }
+        Feature
+            {
+            IntegratedSearch [ "Интегрированный поиск"; "Поиск напрямую из пользовательского интерфейса" ]
+            }
+        Feature { System "Система" }
+        Feature { Name "Закладки и История"; Value "Закладки и История" }
+        Feature { PasswordManager "Менеджер паролей" }
+        Feature { Picture-in-PictureMode "Режим картинка в картинке" }
+        Feature { DownloadManager "Менеджер загрузок" }
+        Feature { IncognitoMode "Режим инкогнито" }
+        Feature
+            {
+            WebVR [ "Веб-VR"; "Поддержка веб-приложений виртуальной реальности" ]
+            }
+        Feature
+            {
+            WebAR [ "Веб-AR"; "Поддержка веб-приложений дополненной реальности" ]
+            }
+        Feature
+            {
+            ResourceManager
+                [
+                "Менеджер ресурсов"
+                "Удобное ограничение использования ЦП, ОЗУ и сети браузером"
+                ]
+            }
+        Feature { Network "Сеть" }
+        Feature
+            {
+            AccountIntegration
+                [
+                "Интеграция учетной записи"
+                "Сохранение и передача ваших закладок, истории и многое другое!"
+                ]
+            }
+        Feature { IntegratedAdblock "Встроенный блокировщик рекламы" }
+        Feature { Plugins "Плагины" }
+        Feature { AIAssistantIntegration "Интеграция искусственного интеллекта" }
+        Feature
+            {
+            VPN [ "VPN"; "Встроенная VPN в вашем браузере, замечательно!" ]
+            }
+        Feature
+            {
+            HTTPSSocketSupport [ "Поддержка HTTPS-сокетов"; "Проверьте, с кем вы соединяетесь" ]
+            }
+        ]
+    }
+
+Software
+    {
+    CloudSoftware [ "Облачное программное обеспечение"; "Мечтают ли роботы о электрических овцах?" ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature { PasswordProtection "Защита паролей" }
+        Feature { AdvancedPasswordProtection "Расширенная защита паролей" }
+        Feature { System "Система" }
+        Feature { HDDServers "Серверы с жесткими дисками" }
+        Feature { HybridServers "Гибридные серверы" }
+        Feature { SSDServers "Серверы с SSD" }
+        Feature { EncryptionAlgorithm "Алгоритм шифрования" }
+        Feature { VirusProtection "Защита от вирусов" }
+        Feature { DDOSProtection "Защита от DDoS-атак" }
+        ]
+    }
+
+Software
+    {
+    DatabaseManagementSoftware
+        [
+        "Программное обеспечение для управления базами данных"
+        "Используется для управления базой данных, в которой хранится учетная запись LadysMan217"
+        ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature
+            {
+            GUI [ "Графический интерфейс пользователя"; "Для чистого вида" ]
+            }
+        Feature
+            {
+            PasswordManager [ "Менеджер паролей"; "Запоминайте ваши пароли" ]
+            }
+        Feature
+            {
+            DatabaseMemory
+                [
+                "Память базы данных"
+                "Для того чтобы запомнить все ваши базы данных"
+                ]
+            }
+        Feature { System "Система" }
+        Feature
+            {
+            LocalBackups
+                [
+                "Локальные резервные копии"
+                "Позволяет создавать локальную копию базы данных для избыточности"
+                ]
+            }
+        Feature
+            {
+            AutoSaving [ "Автоматическое сохранение"; "Сохраняет то, над чем вы работаете" ]
+            }
+        Feature
+
+
+            {
+            ScriptSupport [ "Поддержка скриптов"; "Позволяет запускать скрипты на вашей базе данных" ]
+            }
+        Feature
+            {
+            AdvancedPasswordProtection
+                [
+                "Расширенная защита паролей"
+                "Сохраняет ваши пароли как хеши вместо того, чтобы хранить их в TXT-файле"
+                ]
+            }
+        Feature
+            {
+            IDS [ "IDS"; "Интегрированное хранилище данных - ранняя схема хранения" ]
+            }
+        Feature
+            {
+            SQL-87 [ "SQL-87"; "Язык структурированных запросов - ранняя схема хранения" ]
+            }
+        Feature
+            {
+            ANSi-SPARK [ "ANSi-SPARK"; "ANSi-SPARK - ранняя схема хранения" ]
+            }
+        Feature
+            {
+            Gemstone [ "Gemstone"; "Объектная база данных Gemstone - объектно-ориентированная схема" ]
+            }
+        Feature
+            {
+            UML [ "UML"; "Единый язык моделирования - объектно-ориентированная схема" ]
+            }
+        Feature
+            {
+            MarkLogic [ "Mark Logic"; "Графовая база данных документов - схема построения данных" ]
+            }
+        Feature
+            {
+            Streambase [ "Streambase"; "База данных временных рядов - схема построения времени" ]
+            }
+        Feature
+            {
+            Hive [ "Hive"; "Открытая база данных - современная схема хранения" ]
+            }
+        Feature
+            {
+            ApacheSpark [ "Apache Spark"; "База данных в памяти - современная схема в памяти" ]
+            }
+        Feature { Network "Сеть" }
+        Feature
+            {
+            RemoteBackups
+                [
+                "Удаленные резервные копии"
+                "Позволяет создавать удаленную копию базы данных для избыточности"
+                ]
+            }
+        Feature
+            {
+            SyncedAccounts
+                [
+                "Синхронизированные аккаунты"
+                "Позволяет синхронизировать ваши настройки и пароли независимо от того, что вы используете"
+                ]
+            }
+        Feature
+            {
+            OptimizedProtocals
+                [
+                "Оптимизированные протоколы"
+                "Делает связь с Интернетом более эффективной"
+                ]
+            }
+        Feature
+            {
+            Encryption [ "Шифрование"; "Обеспечение безопасности вашего соединения" ]
+            }
+        Feature
+            {
+            AutoUpdate [ "Автоматическое обновление"; "Держит ваше приложение безопасным и актуальным" ]
+            }
+        Feature
+            {
+            IBMR [ "IBM R"; "IBM System R - ранняя схема хранения" ]
+            }
+        Feature
+            {
+            Oracle [ "Oracle"; "Oracle - логическая схема отношений" ]
+            }
+        Feature
+            {
+            Ingres [ "Ingres"; "Ingres - Проприетарная логическая схема отношений" ]
+            }
+        Feature
+            {
+            Kognito [ "Kognito"; "База данных в памяти - объектно-ориентированная схема" ]
+            }
+        Feature
+            {
+            EssBase [ "EssBase"; "База данных массивов EssBase - Многомерная схема" ]
+            }
+        Feature
+            {
+            KDB [ "KDB"; "Ключевая база данных - Схема ключа / множества значений" ]
+            }
+        Feature
+            {
+            RDF [ "RDF"; "Проект базы данных по рибосоме - Медицинская схема РНК" ]
+            }
+        Feature
+            {
+            Neo4J [ "Neo4J"; "База данных графов свойств - Схема графов реальности" ]
+            }
+        Feature
+            {
+            MongoDB [ "MongoDB"; "Ориентированная на документы база данных - Схема, ориентированная на документы" ]
+            }
+        Feature
+            {
+            SQL-92 [ "SQL-92"; "Язык структурированных запросов - Ранняя схема хранения" ]
+            }
+        Feature
+            {
+            SQL-99 [ "SQL-99"; "Язык структурированных запросов - Ранняя схема хранения" ]
+            }
+        Feature
+            {
+            SQL2003 [ "SQL 2003"; "Язык структурированных запросов - Современная схема хранения" ]
+            }
+        Feature
+            {
+            SQL2006 [ "SQL 2006"; "Язык структурированных запросов - Современная схема хранения" ]
+            }
+        Feature
+            {
+            SQL2008 [ "SQL 2008"; "Язык структурированных запросов - Современная схема хранения" ]
+            }
+        Feature
+            {
+            SQL2011 [ "SQL 2011"; "Язык структурированных запросов - Современная схема хранения" ]
+            }
+        Feature
+            {
+            SQL2016 [ "SQL 2016"; "Язык структурированных запросов - Современная схема хранения" ]
+            }
+        Feature
+            {
+            SQL2019 [ "SQL 2019"; "Язык структурированных запросов - Современная схема хранения" ]
+            }
+        Feature
+            {
+            SQL2023 [ "SQL 2023"; "Язык структурированных запросов - Современная схема хранения" ]
+           
+
+ }
+        Feature
+            {
+            IMS [ "IMS"; "Система управления информацией - Ранняя схема хранения" ]
+            }
+        ]
+    Categories
+        [
+        Category
+            {
+            AdditionalSchemas [ "Дополнительные схемы"; "Дополнительные схемы баз данных" ]
+            }
+        ]
+    }
+
+Software
+    {
+    EmailClient [ "Почтовый клиент"; "Используется для просмотра Всемирной паутины" ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature { UserInterface "Пользовательский интерфейс" }
+        Feature { AdvancedUserInterface "Расширенный пользовательский интерфейс" }
+        Feature { Filters "Фильтры" }
+        Feature { LayoutSupport "Поддержка макета" }
+        Feature { Attachments "Вложения" }
+        Feature { FilePreview "Предварительный просмотр файла" }
+        Feature { System "Система" }
+        Feature { AutoSave "Автосохранение" }
+        Feature { AutoCorrect "Автокоррекция" }
+        Feature { SpamFilter "Фильтр спама" }
+        Feature { VirusScanner "Сканер вирусов" }
+        Feature { Encryption "Шифрование" }
+        ]
+    }
+
+Software
+    {
+    OverclockingSoftware [ "Программное обеспечение для разгона"; "Заставьте ваш аппаратный компонент работать быстрее" ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature { UserInterface "Пользовательский интерфейс" }
+        Feature { Profiles "Профили" }
+        Feature { AdvancedInterface "Расширенный интерфейс" }
+        Feature { System "Система" }
+        Feature { CPUOverclocking "Разгон ЦП" }
+        Feature { GPUOverclocking "Разгон ГПУ" }
+        Feature { AutomaticOverclocking "Автоматический разгон" }
+        Feature { FanControl "Управление вентилятором" }
+        Feature { AutomaticFanControl "Автоматическое управление вентилятором" }
+        ]
+    }
+
+Software
+    {
+    StreamingSoftware [ "Программное обеспечение для потоковой передачи"; "Используется для показа вещей в реальном времени" ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature { BasicInterface "Базовый интерфейс" }
+        Feature { TextinStream "Текст в потоке" }
+        Feature { StreamOverlays "Наложение потока" }
+        Feature { AdvancedInterface "Расширенный интерфейс" }
+        Feature { System "Система" }
+        Feature { Recording "Запись" }
+        Feature { Profiles "Профили" }
+        Feature { GameOptimization "Оптимизация игр" }
+        Feature { Audio "Аудио" }
+        Feature { MusicinStream "Музыка в потоке" }
+        Feature { SoundEffects "Звуковые эффекты" }
+        ]
+    }
+
+Software
+    {
+    VideoEditor [ "Видеоредактор"; "Возможность редактировать видео" ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature { UICustomization "Настройка пользовательского интерфейса" }
+        Feature { SpecialEffects "Специальные эффекты" }
+        Feature { HDSupport "Поддержка HD" }
+        Feature { System "Система" }
+        Feature { CustomFramerates "Пользовательские частоты кадров" }
+        Feature { H261 "H.261" }
+        Feature { Theora "Theora" }
+        Feature { VP8 "VP8" }
+        Feature { AV1 "AV1" }
+        Feature { Audio "Аудио" }
+        Feature { SoundEffects "Звуковые эффекты" }
+        Feature { H262 "H.262" }
+        Feature { H264 "H.264" }
+        Feature { H265 "H.265" }
+        Feature { H266 "H.266" }
+        Feature { VP9 "VP9" }
+        Feature { DCT "DCT" }
+        ]
+    Categories
+        [
+        Category
+            {
+            AdditionalFormats [ "Дополнительные форматы"; "Дополнительные форматы видео" ]
+            }
+        ]
+    }
+
+Software
+    {
+    VOIP     [ "Голосовая связь через интернет"; "Для поддержания связи с миром" ]
+    Features
+        [
+        Feature { Interface "Интерфейс" }
+        Feature { AdvancedUserInterface "Расширенный пользовательский интерфейс" }
+        Feature { BasicMessagingClient "Базовый клиент мгновенных сообщений" }
+        Feature { InstantMessaging "Мгновенная переписка" }
+        Feature { Emoticons "Эмотиконы" }
+        Feature { PicturesandVideos "Изображения и видео" }
+        Feature { Attachments "Вложения" }
+        Feature { System "Система" }
+        Feature { VOIP "Голосовая связь через интернет" }
+        Feature { VideoChat "Видеочат" }
+        Feature { ConferenceCalls "Конференц-звонки" }
+        Feature { Encryption "Шифрование" }
+        ]
+    }
+
+Hardware { }

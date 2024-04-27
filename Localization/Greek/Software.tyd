@@ -1,0 +1,438 @@
+﻿Software
+    {
+    Browser  [ "Περιηγητής"; "Χρησιμοποιείται για την περιήγηση στο Διαδίκτυο" ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature { Toolbar "Εργαλειοθήκη" }
+        Feature
+            {
+            Tabs [ "Καρτέλες"; "Πολυεργασία" ]
+            }
+        Feature
+            {
+            VerticalTabs [ "Κατακόρυφες Καρτέλες"; "Πολυεργασία αλλά κατακόρυφα" ]
+            }
+        Feature
+            {
+            GroupedTabs [ "Ομαδοποιημένες Καρτέλες"; "Πολυεργασία σε Ομάδες" ]
+            }
+        Feature { Themes "Θέματα" }
+        Feature
+            {
+            Sidebar [ "Πλευρική Μπάρα"; "Εύκολη πρόσβαση σε αποθηκευμένα αντικείμενα" ]
+            }
+        Feature { DeveloperTools "Εργαλεία Προγραμματιστή" }
+        Feature
+            {
+            IntegratedSearch [ "Ενσωματωμένη Αναζήτηση"; "Αναζητήστε απευθείας από τη διεπαφή" ]
+            }
+        Feature { System "Σύστημα" }
+        Feature { Name "Σελιδοδείκτες & Ιστορικό"; Value "Σελιδοδείκτες & Ιστορικό" }
+        Feature { PasswordManager "Διαχειριστής Κωδικών" }
+        Feature { Picture-in-PictureMode "Λειτουργία Εικόνας-στην-Εικόνα" }
+        Feature { DownloadManager "Διαχειριστής Λήψεων" }
+        Feature { IncognitoMode "Λειτουργία Ανώνυμης Περιήγησης" }
+        Feature
+            {
+            WebVR [ "WebVR"; "Υποστήριξη εφαρμογών VR στον ιστό" ]
+            }
+        Feature
+            {
+            WebAR [ "WebAR"; "Υποστήριξη εφαρμογών AR στον ιστό" ]
+            }
+        Feature
+            {
+            ResourceManager
+                [
+                "Διαχειριστής Πόρων"
+                "Περιορισμός εύκολα της χρήσης CPU, RAM και δικτύου του περιηγητή"
+                ]
+            }
+        Feature { Network "Δίκτυο" }
+        Feature
+            {
+            AccountIntegration
+                [
+                "Ενσωμάτωση Λογαριασμού"
+                "Αποθηκεύστε και μεταφέρετε τους σελιδοδείκτες σας, το ιστορικό σας και περισσότερα!"
+                ]
+            }
+        Feature { IntegratedAdblock "Ενσωματωμένο Adblock" }
+        Feature { Plugins "Πρόσθετα" }
+        Feature { AIAssistantIntegration "Ενσωμάτωση Τεχνητής Νοημοσύνης" }
+        Feature
+            {
+            VPN [ "VPN"; "Ενσωματωμένη VPN στον περιηγητή σας, γλυκό!" ]
+            }
+        Feature
+            {
+            HTTPSSocketSupport [ "Υποστήριξη HTTPS Socket"; "Επαλήθευση του ποιον συνδέεστε" ]
+            }
+        ]
+    }
+
+Software
+    {
+    CloudSoftware [ "Λογισμικό Νέφους"; "Ονειρεύονται οι ρομπότ τα ηλεκτρικά πρόβατα;" ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature { PasswordProtection "Προστασία Κωδικού" }
+        Feature { AdvancedPasswordProtection "Προηγμένη Προστασία Κωδικού" }
+        Feature { System "Σύστημα" }
+        Feature { HDDServers "Διακομιστές HDD" }
+        Feature { HybridServers "Υβριδικοί Διακομιστές" }
+        Feature { SSDServers "Διακομιστές SSD" }
+        Feature { EncryptionAlgorithm "Αλγόριθμος Κρυπτογράφησης" }
+        Feature { VirusProtection "Προστασία Από Ιούς" }
+        Feature { DDOSProtection "Προστασία Από DDOS" }
+        ]
+    }
+
+Software
+    {
+    DatabaseManagementSoftware
+        [
+        "Λογισμικό Διαχείρισης Βάσεων Δεδομένων"
+        "Χρησιμοποιείται για τη διαχείριση της βάσης δεδομένων στην οποία αποθηκεύεται ο λογαριασμός του LadysMan217"
+        ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature
+            {
+            GUI [ "Γραφική Χρήστη"; "Όταν θέλετε μια καθαρή εμφάνιση" ]
+            }
+        Feature
+            {
+            PasswordManager [ "Διαχειριστής Κωδικών"; "Να θυμάστε τους κωδικούς σας" ]
+            }
+        Feature
+            {
+            DatabaseMemory
+                [
+                "Μνήμη Βάσης Δεδομένων"
+                "Όταν θέλετε να θυμάστε όλες τις βάσεις δεδομένων σας"
+                ]
+            }
+        Feature { System "Σύστημα" }
+        Feature
+            {
+            LocalBackups
+                [
+                "Τοπικά Αντίγραφα Ασφαλείας"
+                "Σας επιτρέπει να δημιουργήσετε μια τοπική αντίγραφη μιας βάσης δεδομένων για την αντιγραφή ασφαλείας"
+                ]
+            }
+        Feature
+            {
+            AutoSaving [ "Αυτόματη Αποθήκευση"; "Αποθηκεύει αυτό που εργάζεστε" ]
+            }
+        Feature
+            {
+            ScriptSupport [ "Υποστήριξη Σεναρίου"; "Σας επιτρέπει να εκτελείτε σενάρια στη βάση δεδομένων σας" ]
+            }
+        Feature
+            {
+            AdvancedPasswordProtection
+                [
+                "Προηγμένη Προστασία Κωδικού"
+                "Αποθηκεύει τους κωδικούς σας ως κατακερματισμένα αντί για ένα αρχείο κειμένου"
+                ]
+            }
+        Feature
+            {
+            IDS [ "IDS"; "Ενσωματωμένη Αποθήκευση Δεδομένων - Πρώιμο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL-87 [ "SQL-87"; "Δομημένη Γλώσσα Ερωτημάτων - Πρώιμο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            ANSi-SPARK [ "ANSi-SPARK"; "ANSi-SPARK - Πρώιμο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            Gemstone [ "Gemstone"; "Βάση Δεδομένων Αντικειμένου Gemstone - Αντικειμενοστραφές Σχήμα" ]
+            }
+        Feature
+            {
+            UML [ "UML"; "Ενοποιημένη Γλώσσα Μοντέλων - Αντικειμενοστραφές Σχήμα" ]
+            }
+        Feature
+            {
+            MarkLogic [ "Mark Logic"; "Γράφημα Έγγραφης Βάσης Δεδομένων Mark Logic - Σχήμα Εκκαθάρισης Δεδομένων" ]
+            }
+        Feature
+            {
+            Streambase [ "Streambase"; "Βάση Δεδομένων Χρονολογικής Σειράς - Σχήμα Χρονολογικής Σειράς" ]
+            }
+        Feature
+            {
+            Hive [ "Hive"; "Ανοιχτή Πηγή Βάσης Δεδομένων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            ApacheSpark [ "Apache Spark"; "Βάση Δεδομένων Σε Μνήμη - Σύγχρονο Σχήμα Αποθήκευσης Μνήμης" ]
+            }
+        Feature { Network "Δίκτυο" }
+        Feature
+            {
+            RemoteBackups
+                [
+                "Απομακρυσμένα Αντίγραφα Ασφαλείας"
+                "Σαςεπιτρέπει να δημιουργήσετε ένα απομακρυσμένο αντίγραφο μιας βάσης δεδομένων για την αντιγραφή ασφαλείας"
+                ]
+            }
+        Feature
+            {
+            SyncedAccounts
+                [
+                "Συγχρονισμένοι Λογαριασμοί"
+                "Σας επιτρέπει να συγχρονίσετε τις ρυθμίσεις και τους κωδικούς πρόσβασής σας ανεξάρτητα από το τι χρησιμοποιείτε"
+                ]
+            }
+        Feature
+            {
+            OptimizedProtocals
+                [
+                "Βελτιωμένα Πρωτόκολλα"
+                "Το κάνει να επικοινωνεί με το διαδίκτυο με πιο αποδοτικό τρόπο"
+                ]
+            }
+        Feature
+            {
+            Encryption [ "Κρυπτογράφηση"; "Ασφαλίζοντας τη σύνδεσή σας" ]
+            }
+        Feature
+            {
+            AutoUpdate [ "Αυτόματη Ενημέρωση"; "Διατηρεί την εφαρμογή σας ασφαλή και ενημερωμένη" ]
+            }
+        Feature
+            {
+            IBMR [ "IBM R"; "Σύστημα IBM R - Πρώιμο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            Oracle [ "Oracle"; "Oracle - Λογικό Σχήμα Σχέσεων" ]
+            }
+        Feature
+            {
+            Ingres [ "Ingres"; "Ingres - Ιδιόκτητο Λογικό Σχήμα Σχέσεων" ]
+            }
+        Feature
+            {
+            Kognito [ "Kognito"; "Βάση Δεδομένων Σε Μνήμη - Αντικειμενοστραφές Σχήμα" ]
+            }
+        Feature
+            {
+            EssBase [ "EssBase"; "Βάση Δεδομένων Ενισχυμένης Πινακίδας EssBase - Πολυδιάστατο Σχήμα" ]
+            }
+        Feature
+            {
+            KDB [ "KDB"; "Βάση Δεδομένων Κλειδιού - Κλειδί / Πολυτιμητικό Σχήμα" ]
+            }
+        Feature
+            {
+            RDF [ "RDF"; "Έργο Βάσης Δεδομένων RDF - Ιατρικό Σχήμα RNA" ]
+            }
+        Feature
+            {
+            Neo4J [ "Neo4J"; "Βάση Δεδομένων Ιδιοκτησίας Ιδιοκτησίας - Πραγματικό Σχήμα Γράφησης" ]
+            }
+        Feature
+            {
+            MongoDB [ "MongoDB"; "Έγγραφο Βάσης Δεδομένων - Έγγραφο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL-92 [ "SQL-92"; "Δομημένη Γλώσσα Ερωτημάτων - Πρώιμο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL-99 [ "SQL-99"; "Δομημένη Γλώσσα Ερωτημάτων - Πρώιμο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL2003 [ "SQL 2003"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL2006 [ "SQL 2006"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL2008 [ "SQL 2008"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL2011 [ "SQL 2011"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL2016 [ "SQL 2016"; "Δομημένη Γλώσσα Ερωτηήματων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQL2019 [ "SQL 2019"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            AzureSQL [ "Azure SQL"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            CosmosDB [ "Cosmos DB"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            MySQL [ "MySQL"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            MariaDB [ "MariaDB"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            PostgreSQL [ "PostgreSQL"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            OracleSQL [ "Oracle SQL"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature
+            {
+            SQLServer [ "SQL Server"; "Δομημένη Γλώσσα Ερωτημάτων - Σύγχρονο Σχήμα Αποθήκευσης" ]
+            }
+        Feature { WebIntegration "Ενσωμάτωση στον Ιστό" }
+        Feature { CrossPlatform "Συμβατότητα Πλατφόρμας" }
+        Feature { RealTimeData "Πραγματικά Χρονικά Δεδομένα" }
+        Feature { CloudBackup "Αντίγραφα Ασφαλείας Νέφους" }
+        Feature { Scalability "Κλιμακωσιμότητα" }
+        Feature { Reliability "Αξιοπιστία" }
+        Feature { DisasterRecovery "Αποκατάσταση Μετά Από Καταστροφή" }
+        Feature { Monitoring "Παρακολούθηση" }
+        Feature { Security "Ασφάλεια" }
+        Feature { Compliance "Συμμόρφωση" }
+        Feature { CostEffective "Οικονομικό" }
+        Feature { UserFriendly "Φιλικό προς τον Χρήστη" }
+        Feature { MultiLanguageSupport "Υποστήριξη Πολλών Γλωσσών" }
+        ]
+    }
+Software
+    {
+    EmailClient [ "Πελάτης Email"; "Χρησιμοποιείται για την περιήγηση στον Παγκόσμιο Ιστό" ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature { UserInterface "Διεπαφή Χρήστη" }
+        Feature { AdvancedUserInterface "Προηγμένη Διεπαφή Χρήστη" }
+        Feature { Filters "Φίλτρα" }
+        Feature { LayoutSupport "Υποστήριξη Διάταξης" }
+        Feature { Attachments "Συνημμένα" }
+        Feature { FilePreview "Προεπισκόπηση Αρχείου" }
+        Feature { System "Σύστημα" }
+        Feature { AutoSave "Αυτόματη Αποθήκευση" }
+        Feature { AutoCorrect "Αυτόματη Διόρθωση" }
+        Feature { SpamFilter "Φίλτρο Ανεπιθύμητων Μηνυμάτων" }
+        Feature { VirusScanner "Σαρωτής Ιών" }
+        Feature { Encryption "Κρυπτογράφηση" }
+        ]
+    }
+
+Software
+    {
+    OverclockingSoftware [ "Λογισμικό Υπερχρονισμού"; "Κάντε το υλικό σας να τρέχει γρηγορότερα" ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature { UserInterface "Διεπαφή Χρήστη" }
+        Feature { Profiles "Προφίλ" }
+        Feature { AdvancedInterface "Προηγμένη Διεπαφή" }
+        Feature { System "Σύστημα" }
+        Feature { CPUOverclocking "Υπερχρονισμός CPU" }
+        Feature { GPUOverclocking "Υπερχρονισμός GPU" }
+        Feature { AutomaticOverclocking "Αυτόματος Υπερχρονισμός" }
+        Feature { FanControl "Έλεγχος Ανεμιστήρα" }
+        Feature { AutomaticFanControl "Αυτόματος Έλεγχος Ανεμιστήρα" }
+        ]
+    }
+
+Software
+    {
+    StreamingSoftware [ "Λογισμικό Μετάδοσης Ροής"; "Χρησιμοποιείται για να εμφανίζει πράγματα σε πραγματικό χρόνο" ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature { BasicInterface "Βασική Διεπαφή" }
+        Feature { TextinStream "Κείμενο στη Ροή" }
+        Feature { StreamOverlays "Επικαλύψεις Ροής" }
+        Feature { AdvancedInterface "Προηγμένη Διεπαφή" }
+        Feature { System "Σύστημα" }
+        Feature { Recording "Εγγραφή" }
+        Feature { Profiles "Προφίλ" }
+        Feature { GameOptimization "Βελτιστοποίηση Παιχνιδιού" }
+        Feature {
+
+ Audio "Ήχος" }
+        Feature { MusicinStream "Μουσική στη Ροή" }
+        Feature { SoundEffects "Ηχητικά Εφέ" }
+        ]
+    }
+
+Software
+    {
+    VideoEditor [ "Επεξεργαστής Βίντεο"; "Να είστε σε θέση να επεξεργάζεστε βίντεο" ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature { UICustomization "Προσαρμογή Διεπαφής Χρήστη" }
+        Feature { SpecialEffects "Ειδικά Εφέ" }
+        Feature { HDSupport "Υποστήριξη HD" }
+        Feature { System "Σύστημα" }
+        Feature { CustomFramerates "Προσαρμοσμένες Ρυθμίσεις Καρέ ανά Δευτερόλεπτο" }
+        Feature { H261 "H.261" }
+        Feature { Theora "Theora" }
+        Feature { VP8 "VP8" }
+        Feature { AV1 "AV1" }
+        Feature { Audio "Ήχος" }
+        Feature { SoundEffects "Ηχητικά Εφέ" }
+        Feature { H262 "H.262" }
+        Feature { H264 "H.264" }
+        Feature { H265 "H.265" }
+        Feature { H266 "H.266" }
+        Feature { VP9 "VP9" }
+        Feature { DCT "Διακριτή Μετατροπή Κοστούς" }
+        ]
+    Categories
+        [
+        Category
+            {
+            AdditionalFormats [ "Πρόσθετες Μορφές"; "Πρόσθετες Μορφές Βίντεο" ]
+            }
+        ]
+    }
+
+Software
+    {
+    VOIP     [ "VOIP"; "Για να είστε σε επαφή με τον κόσμο" ]
+    Features
+        [
+        Feature { Interface "Διεπαφή" }
+        Feature { AdvancedUserInterface "Προηγμένη Διεπαφή Χρήστη" }
+        Feature { BasicMessagingClient "Βασικός Πελάτης Μηνυμάτων" }
+        Feature { InstantMessaging "Άμεση Ανταλλαγή Μηνυμάτων" }
+        Feature { Emoticons "Συμβολοσειρές" }
+        Feature { PicturesandVideos "Φωτογραφίες και Βίντεο" }
+        Feature { Attachments "Συνημμένα" }
+        Feature { System "Σύστημα" }
+        Feature { VOIP "VOIP" }
+        Feature { VideoChat "Βιντεοκλήση" }
+        Feature { ConferenceCalls "Κλήσεις Συνδιάσκεψης" }
+        Feature { Encryption "Κρυπτογράφηση" }
+        ]
+    }
+
+Hardware { }
