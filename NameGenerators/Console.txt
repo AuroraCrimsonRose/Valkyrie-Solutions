@@ -18,3 +18,12 @@ OS
 Software
 Station
 X
+Sega
+IBM
+Dreamcast
+Saturn
+Microsoft
+Ayaneo
+ASUS
+Steamdeck
+Nvidia
