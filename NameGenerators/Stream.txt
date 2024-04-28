@@ -13,3 +13,4 @@ Broadcaster
 Streamer
 Server
 Manager
+-end(stop)
