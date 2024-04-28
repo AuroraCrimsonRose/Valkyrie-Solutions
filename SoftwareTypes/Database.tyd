@@ -1,7 +1,7 @@
 SoftwareType
         {
             Name            "Database Management Software"
-            Description     "Used to manage the database LadysMan217's account is stored in"b 
+            Description     "Used to manage the database LadysMan217's account is stored in"
             Unlock          1975
             Random          0.01
             IdealPrice      40
