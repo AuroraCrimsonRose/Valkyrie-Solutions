@@ -16,4 +16,5 @@ Rockstar Games
 Samsung Store
 Steam
 Ubisoft Connect
+Itch.io
 -end(stop)
