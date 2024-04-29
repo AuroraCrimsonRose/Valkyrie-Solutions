@@ -1,0 +1,55 @@
+SoftwareType
+        {
+            Name            "CAD Software"
+            Description     "Computer Aided Design Software"
+            Unlock          1980
+            Random          0.01
+            IdealPrice      60
+            OptimalDevTime  24
+            OSSupport       [ Computer ]
+            OneClient       False
+            InHouse         False
+            Popularity      1
+            Retention       45
+            Iterative       0.50
+            SubmarketNames  [ Functionality; Customization; Security ]
+            NameGenerator   Cad
+            Features
+                    [
+                        {
+                        Name            "Interface"
+                        Spec            2D
+                        DevTime         3
+                        CodeArt         0.5
+                        Dependencies    "2D Editor"
+                        Submarkets      [ 1; 1; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Toolbar"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Toolbar"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Toolbar"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Toolbar"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }

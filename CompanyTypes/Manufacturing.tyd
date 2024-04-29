@@ -1,0 +1,19 @@
+CompanyType
+	{
+	Specialization		"Manufacturing Technologies"
+	PerYear				0.2
+	Min					2
+	Max					2
+    Frameworks          False
+	Types
+		[
+			{
+			Software	"CAD Software"
+			Chance		0.75
+			}
+			{
+			Software	"CAM Software"
+			Chance		0.75
+			}
+		]
+	}
