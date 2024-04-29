@@ -206,14 +206,14 @@ SoftwareType
                                             Submarkets      [ 1; 1; 0 ]
                                         }
                                         {
-                                        Name            "VPN"
-                                        Description     "Integrated VPN in your browser, sweet!"
-                                        Unlock          2010
-                                        DevTime         3
-                                        Level           1
-                                        CodeArt         1
-                                        Submarkets      [ 1; 0; 2 ]
-                                        Server          0.00008
+                                            Name            "VPN"
+                                            Description     "Integrated VPN in your browser, sweet!"
+                                            Unlock          2010
+                                            DevTime         3
+                                            Level           1
+                                            CodeArt         1
+                                            Submarkets      [ 1; 0; 2 ]
+                                            Server          0.00008
                                         }
                                         {
                                             Name            "HTTPS Socket Support"

@@ -26,7 +26,7 @@ SoftwareType
                         Features
                                     [
                                         {
-                                            Name            "Toolbar"
+                                            Name            "Project Collaboration"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
@@ -39,15 +39,63 @@ SoftwareType
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
+                                    ]
+                        }
+
+                        {
+                        Name            "3D"
+                        Spec            3D
+                        DevTime         6
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        DependsOn       "3D Editor"
+                        Features
+                                    [
                                         {
-                                            Name            "Toolbar"
+                                            Name            "Solid Modeling"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
                                         {
-                                            Name            "Toolbar"
+                                            Name            "Collision Detection"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                    ]
+                        }
+
+                        {
+                        Name            "System"
+                        Spec            System
+                        DevTime         6
+                        CodeArt         1
+                        Submarkets      [ 1; 0; 0 ]
+                        Features
+                                    [
+                                        {
+                                            Name            "Embbeded Programming"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                    ]
+                        }
+
+                        {
+                            Name            "Network"
+                            Spec            Network
+                            DevTime         2
+                            CodeArt         1
+                            Submarkets      [ 1; 1; 1 ]
+                            Features
+                                    [
+                                        {
+                                            Name            "Project Colabertation"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
