@@ -18,12 +18,4 @@ CompanyType
 			Force		false
 			}
 		]
-	Addons
-		[
-			{
-			Software	"Database Management Software"
-			Addon		"Additional Schemas"
-			Chance		0.15
-			}
-		]
 	}
