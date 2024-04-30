@@ -26,4 +26,11 @@ Enjoying Valkyrie Solutions? Consider starring this repository on GitHub to supp
 
 ## Trello Board
 
-- Here is a link to the Trello Roadmap Board [Trello](https://trello.com/invite/b/I0MilAyp/ATTI7418a306f6b2c2085292335bf8e3ce13C711F197/valkyrie-solutions)
+- Here is a link to the Trello Roadmap Board 
+[Trello](https://trello.com/invite/b/I0MilAyp/ATTI7418a306f6b2c2085292335bf8e3ce13C711F197/valkyrie-solutions)
+
+
+## Steam Workshop Page
+
+- Here is the link to the Steam workshop page. 
+[Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3235726354)
