@@ -6,7 +6,6 @@ SoftwareType
             Random          0.01
             IdealPrice      60
             OptimalDevTime  24
-            OSSupport       [ Computer; Phone; Console ]
             OneClient       False
             InHouse         False
             Popularity      1
