@@ -1,0 +1,15 @@
+CompanyType
+	{
+	Specialization		"Learning Technologies"
+	PerYear				0.2
+	Min					2
+	Max					2
+    Frameworks          False
+	Types
+		[
+			{
+			Software	"Learning Management Software"
+			Chance		1
+			}
+		]
+	}

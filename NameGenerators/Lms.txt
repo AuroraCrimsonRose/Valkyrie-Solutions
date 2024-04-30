@@ -1,0 +1,16 @@
+-start(base)
+-base(base2)
+Canvas 
+Black Board 
+Think 
+Talent 
+Open 
+Student 
+Corporate
+-base2(stop)
+Quiz
+Learn
+Teacher
+Classroom
+LMS
+-end(stop)

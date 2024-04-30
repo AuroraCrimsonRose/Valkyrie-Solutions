@@ -1,16 +1,16 @@
 SoftwareType
         {
             Name            "Learning Management Software"
-            Description     "Learning Management Software"
+            Description     "For when you can't learn from a physical location."
             Unlock          1980
-            Random          0.01
-            IdealPrice      60
+            Random          0.10
+            IdealPrice      40
             OptimalDevTime  24
             OSSupport       [ Computer; Phone ]
             OneClient       False
             InHouse         False
             Popularity      1
-            Retention       45
+            Retention       60
             Iterative       0.50
             SubmarketNames  [ Functionality; Customization; Learning ]
             NameGenerator   Lms
@@ -28,10 +28,11 @@ SoftwareType
                                     [
                                         {
                                             Name            "Multimedia Support"
-                                            DevTime         2
-                                            CodeArt         0.5
+                                            DevTime         4
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 1; 0 ]
+                                            Unlock          1996
                                         }
                                         {
                                             Name            "Book Library"
@@ -44,10 +45,9 @@ SoftwareType
                                         {
                                             Name            "Templates"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         0
                                             Level           1
                                             Submarkets      [ 1; 2; 0 ]
-                                            Unlock          1984
                                         }
                                         {
                                             Name            "Accessibility Features"
@@ -72,16 +72,18 @@ SoftwareType
                                         {
                                             Name            "WebVR Aupport"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 1 ]
+                                            Unlock          2005
                                         }
                                         {
                                             Name            "WebAR Support"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 1 ]
+                                            Unlock          2005
                                         }
                                     ]
                         }
@@ -97,21 +99,21 @@ SoftwareType
                                         {
                                             Name            "Course Managment"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
                                         {
                                             Name            "User Managment"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
                                         {
                                             Name            "Automatic Grading"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 1 ]
                                         }

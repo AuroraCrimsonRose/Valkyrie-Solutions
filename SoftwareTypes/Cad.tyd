@@ -3,8 +3,8 @@ SoftwareType
             Name            "CAD Software"
             Description     "Computer Aided Design Software"
             Unlock          1980
-            Random          0.01
-            IdealPrice      60
+            Random          0.10
+            IdealPrice      80
             OptimalDevTime  24
             OSSupport       [ Computer ]
             OneClient       False
@@ -12,14 +12,14 @@ SoftwareType
             Popularity      1
             Retention       45
             Iterative       0.50
-            SubmarketNames  [ Functionality; Customization; Security ]
+            SubmarketNames  [ Functionality; Customization; Graphics ]
             NameGenerator   Cad
             Features
                     [
                         {
                         Name            "Interface"
                         Spec            2D
-                        DevTime         3
+                        DevTime         2
                         CodeArt         0.5
                         Dependencies    "2D Editor"
                         Submarkets      [ 1; 1; 0 ]
@@ -30,14 +30,14 @@ SoftwareType
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 2; 1 ]
                                         }
                                         {
                                             Name            "Geometric Shapes"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 0; 1 ]
                                             Unlock          1980
                                         }
                                         {
@@ -45,7 +45,7 @@ SoftwareType
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 0; 1 ]
                                             Unlock          1984
                                         }
                                         {
@@ -53,7 +53,7 @@ SoftwareType
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 0; 1 ]
                                             Unlock          1984
                                         }
                                     ]
@@ -62,7 +62,7 @@ SoftwareType
                         {
                         Name            "3D"
                         Spec            3D
-                        DevTime         6
+                        DevTime         4
                         CodeArt         1
                         Submarkets      [ 1; 0; 0 ]
                         DependsOn       "3D Editor"
@@ -78,9 +78,23 @@ SoftwareType
                                         {
                                             Name            "Collision Detection"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "Lighting"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           2
+                                            Submarkets      [ 0; 1; 1 ]
+                                        }
+                                        {
+                                            Name            "Post Processing"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           2
+                                            Submarkets      [ 0; 2; 1 ]
                                         }
                                     ]
                         }
@@ -96,7 +110,14 @@ SoftwareType
                                         {
                                             Name            "Embbeded Programming"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
+                                            Level           1
+                                            Submarkets      [ 1; 0; 0 ]
+                                        }
+                                        {
+                                            Name            "CAM File Exporting"
+                                            DevTime         2
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
@@ -114,7 +135,7 @@ SoftwareType
                                         {
                                             Name            "Project Colabertation"
                                             DevTime         2
-                                            CodeArt         0.5
+                                            CodeArt         1
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
