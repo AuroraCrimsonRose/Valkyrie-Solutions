@@ -1,19 +1,20 @@
 SoftwareType
         {
-            Name            "CAM Software"
-            Description     "Computer Aided Manufacturing Software"
+            Name            "Learning Management Software"
+            Description     "Learning Management Software"
             Unlock          1980
             Random          0.01
             IdealPrice      60
             OptimalDevTime  24
-            OSSupport       [ Computer ]
+            OSSupport       [ Computer; Phone ]
             OneClient       False
             InHouse         False
             Popularity      1
             Retention       45
             Iterative       0.50
-            SubmarketNames  [ Functionality; Customization; Security ]
-            NameGenerator   Cad
+            SubmarketNames  [ Functionality; Customization; Learning ]
+            NameGenerator   Lms
+            Server 0.0001
             Features
                     [
                         {
@@ -22,22 +23,39 @@ SoftwareType
                         DevTime         3
                         CodeArt         0.5
                         Dependencies    "2D Editor"
-                        Submarkets      [ 1; 1; 1 ]
+                        Submarkets      [ 1; 1; 0 ]
                         Features
                                     [
                                         {
-                                            Name            "Project Collaboration"
+                                            Name            "Multimedia Support"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 1; 0 ]
                                         }
                                         {
-                                            Name            "Toolbar"
+                                            Name            "Book Library"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 0; 2 ]
+                                            Unlock          1980
+                                        }
+                                        {
+                                            Name            "Templates"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 2; 0 ]
+                                            Unlock          1984
+                                        }
+                                        {
+                                            Name            "Accessibility Features"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 1; 1 ]
+                                            Unlock          1984
                                         }
                                     ]
                         }
@@ -52,18 +70,18 @@ SoftwareType
                         Features
                                     [
                                         {
-                                            Name            "Solid Modeling"
+                                            Name            "WebVR Aupport"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 0; 1 ]
                                         }
                                         {
-                                            Name            "Collision Detection"
+                                            Name            "WebAR Support"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 1; 0; 1 ]
                                         }
                                     ]
                         }
@@ -77,31 +95,27 @@ SoftwareType
                         Features
                                     [
                                         {
-                                            Name            "Embbeded Programming"
+                                            Name            "Course Managment"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
-                                    ]
-                        }
-
-                        {
-                            Name            "Network"
-                            Spec            Network
-                            DevTime         2
-                            CodeArt         1
-                            Submarkets      [ 1; 1; 1 ]
-                            Features
-                                    [
                                         {
-                                            Name            "Project Colabertation"
+                                            Name            "User Managment"
                                             DevTime         2
                                             CodeArt         0.5
                                             Level           1
                                             Submarkets      [ 1; 0; 0 ]
                                         }
-                                    ]
+                                        {
+                                            Name            "Automatic Grading"
+                                            DevTime         2
+                                            CodeArt         0.5
+                                            Level           1
+                                            Submarkets      [ 1; 0; 1 ]
+                                        }
+                                    ] 
                         }
                     ]
         }

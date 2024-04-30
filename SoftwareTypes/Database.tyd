@@ -31,7 +31,7 @@ SoftwareType
                                                 DevTime         4
                                                 CodeArt         0.5
                                                 Level           1
-                                                Submarkets      [ 2; 1; 0 ]
+                                                Submarkets      [ 2; 2; 0 ]
                                                 Unlock          1980
                                             }
                                             {
@@ -76,7 +76,7 @@ SoftwareType
                                                 DevTime         2
                                                 CodeArt         1
                                                 Level           1
-                                                Submarkets      [ 1; 1; 0 ]
+                                                Submarkets      [ 1; 0; 0 ]
                                             }
                                             {
                                                 Name            "Script Support"
@@ -84,7 +84,7 @@ SoftwareType
                                                 DevTime         6
                                                 CodeArt         1
                                                 Level           2
-                                                Submarkets      [ 2; 1; 0 ]
+                                                Submarkets      [ 2; 0; 0 ]
                                                 Unlock          1990
                                             }
                                             {
@@ -201,7 +201,7 @@ SoftwareType
                                                 DevTime         2
                                                 CodeArt         1
                                                 Level           1
-                                                Submarkets      [ 1; 1; 1 ]
+                                                Submarkets      [ 1; 0; 1 ]
                                                 Unlock          2003
                                             }
                                             {
