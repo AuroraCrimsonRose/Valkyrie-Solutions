@@ -21,7 +21,6 @@ SoftwareType
                         Spec            2D
                         DevTime         3
                         CodeArt         0.5
-                        Dependencies    "2D Editor"
                         Submarkets      [ 1; 1; 0 ]
                         Features
                                     [

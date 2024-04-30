@@ -21,7 +21,6 @@ SoftwareType
                         Spec            2D
                         DevTime         3
                         CodeArt         0.5
-                        Dependencies    "2D Editor"
                         Submarkets      [ 1; 1; 1 ]
                         Features
                                     [
@@ -64,7 +63,6 @@ SoftwareType
                         Spec            System
                         DevTime         6
                         CodeArt         1
-                        Dependencies    "Video Editor"
                         Submarkets      [ 1; 0; 1 ]
                         Features
                                     [
