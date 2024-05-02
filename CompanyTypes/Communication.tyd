@@ -19,5 +19,9 @@ CompanyType
 			Software	"Email Client"
 			Chance		0.75
 			}
+			{
+			Software	"Social Media Platform"
+			Chance		0.5
+			}
 		]
 	}
