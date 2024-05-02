@@ -7,6 +7,18 @@ Welcome to the Valkyrie Solutions Mod for Software Inc! This mod is designed to 
 - **Real Company Names**: Play with company names that reflect real-world businesses, enhancing the realism of your game.
 - **Expanded Software Options**: Broaden your company's horizons with a variety of new software types, adding depth and challenge.
 
+Computer Aided Machining (CAM),
+Computer Aided Design (CAD),
+Web  Browser,
+Cloud Software,
+Database Management Software (DMS),
+Email Client,
+Learning Management System (LMS),
+Overclocking Software,
+Streaming Software,
+Video Editing Software,
+VOIP / Instant Messaging Software
+
 ## Contributing
 
 Your contributions are invaluable to the development of Valkyrie Solutions! For contribution guidelines, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file. Whether you're reporting bugs, suggesting new features, or making code contributions, we welcome your input.
