@@ -1,0 +1,60 @@
+Design
+    {
+    ID                  "CNC Lathe"
+    Name                "CNC Lathe"
+    BaseMesh            Frame
+    Objects
+        [
+        { ID Frame; Name Frame; Mesh Frame.obj; AtlasCount 8; AtlasX 0.122807; AtlasY 0 }
+            {
+            ID         Gantry
+            Name       Gantry
+            Mesh       Gantry.obj
+            AtlasCount 8
+            AtlasX     0.122807
+            AtlasY     0
+            }
+            {
+            ID         Mechanics
+            Name       Mechanics
+            Mesh       Mechanics.obj
+            AtlasCount 8
+            AtlasX     0.127193
+            AtlasY     0
+            }
+        ]
+    Attachments
+        [
+            {
+            Name        Gantry
+            Index       228
+            Type        Triangle
+            Attachments
+                [
+                    {
+                    Object   Gantry
+                    Offset   [ 0.05827006; 0.8883776; -0.08720838 ]
+                    Rotation [ 359.5385; 90.00236; 89.70683 ]
+                    Roll     False
+                    }
+                ]
+            }
+            {
+            Name        Tool
+            Index       231
+            Type        Triangle
+            Attachments
+                [
+                    {
+                    Object   Mechanics
+                    Offset   [ -0.3597907; -0.2229589; -0.08794957 ]
+                    Rotation [ 359.4011; 89.99602; 90.3819 ]
+                    Roll     False
+                    }
+                ]
+            }
+        ]
+    BaseTexture         Lathe_Texture.png
+    PrimaryColorEnabled False
+    }
+
