@@ -17,7 +17,8 @@ Learning Management System (LMS),
 Overclocking Software,
 Streaming Software,
 Video Editing Software,
-VOIP / Instant Messaging Software
+VOIP / Instant Messaging Software,
+Social Media Platform.
 
 ## Contributing
 
