@@ -2,8 +2,8 @@ CompanyType
 	{
 	Specialization		"Visual Technologies"
 	PerYear				0.2
-	Min					1
-	Max					2
+	Min					2
+	Max					6
     Frameworks          False
 	Types
 		[

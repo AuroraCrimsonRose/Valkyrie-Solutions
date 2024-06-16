@@ -9,6 +9,9 @@ Tungsten
 Steel 
 Omni 
 Web 
+Super 
+Epic 
+Amazing 
 -base2(stop)
 Browser
 Explorer

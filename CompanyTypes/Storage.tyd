@@ -2,8 +2,8 @@ CompanyType
 	{
 	Specialization		"Storage Technologies"
 	PerYear				0.2
-	Min					0
-	Max					1
+	Min					4
+	Max					8
     Frameworks          False
 	Types
 		[

@@ -6,20 +6,30 @@ Accenture
 Acer
 Activision Blizzard
 Adobe
+Akamai Technologies
 Amazon
 AMD
+Annapurna Interactive
+AOC
 Apple
+Arm Holdings
+Aspyr Media
 Asus
 Atari
+Atlassian
 Avalanche Software
 Avira
 Bandai Namco
+BenQ
 Bethesda Softworks
+Big Fish Games
 BioWare
 Bluehole
 Bohemia Interactive
 Bungie
+Capcom
 Casio
+CCP Games
 CD Projekt
 Cisco Systems
 Codemasters
@@ -27,12 +37,20 @@ Colossal Order
 Commodore
 Coredumping
 Creative Assembly
+Crytek
 Curve Digital
+CyberLink
 Daedalic Entertainment
 Deep Silver
 Devolver Digital
 DICE
+Digital Extremes
+Discord
+Dolby Laboratories
+Dontnod Entertainment
 Double Eleven
+Dropbox
+Eidos Interactive
 Electronic Arts
 Entrada Interactive
 Epic Games
@@ -40,24 +58,44 @@ Facebook
 Firaxis Games
 Firefly Studios
 Focus Home Interactive
+Fractal Design
+Freebird Games
 From Software
 Frontier Developments
+G2 Games
+Gearbox Publishing
 Gearbox Software
-Gygabyte
 General Electric
+Glu Mobile
+GoPro
+Grasshopper Manufacture
+Gree
+Gygabyte
+Gunfire Games
+Hello Games
 Hinterland Studios
 Hitachi
 HP
+HTC
 Huawei
+Humble Bundle
+HyperX
 IBM International Business Machines
 id Software
+Imangi Studios
 Infosys Technologies
 Instagram
 Intel
+Intuit
+Insomniac Games
+IO Interactive
 JD Edwards
 Kalypso Media Group
+Kingston Technology
 Koch Media
+Koei Tecmo
 Konami
+Leap Motion
 LG
 LinkedIn
 Lionhead
@@ -65,45 +103,81 @@ Logitech
 LucasArts
 Ludeon Studios
 Mad Catz
+Madfinger Games
 McAfee
 Microsoft
+Mojang Studios
+Motion Twin
+MSI
+Netgear
 Nintendo
 Nokia
 Nvidia
+NZXT
 Obsidian Entertainment
 Oracle
+OUYA
+Palit
+Panic
 Paradox Interactive
+Pathea Games
 Pendulo Studios
 PeopleSoft
+Playdead
 Playsport Games
+Playrix
 Raw Fury
 Razer
+Remedy Entertainment
 Roccat
 Rockstar Games
+Saber Interactive
+Salesforce
 Samsung
 SAP
+Sandisk
 SCS Software
 Sega
+Sennheiser
+Shopify
+Sledgehammer Games
+Snapchat
+SoftBank
 Sony
 Square Enix
+SteelSeries
 Sun Microsystem
+Supercell
 Symantec
 TakeTwo Interactive
 Team17
+Techland
 Texas Instruments
 THQ Nordic
 TikTok
 tinyBuild
 Treyarch
 Triumph Studios
+Turtle Beach
 Turn 10 Studios
+Twitter
 Ubisoft Entertainment
 Undead Labs
+Unity Technologies
 Unknown Worlds Entertainment
-Valkyrie Development
 Valve Corporation
+Valkyrie Development
+Viber
 VMware
+Wargaming.net
 Warner Bros
+Western Digital
+WhatsApp
 Wipro Technologies
 XBOX Game Studios
+Yager Development
+Yelp
+Yodo1 Games
+Zotac
+Zynga
 -end(stop)

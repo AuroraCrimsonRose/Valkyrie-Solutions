@@ -3,7 +3,7 @@ CompanyType
 	Specialization		"Learning Technologies"
 	PerYear				0.2
 	Min					2
-	Max					2
+	Max					10
     Frameworks          False
 	Types
 		[

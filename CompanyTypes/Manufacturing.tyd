@@ -2,8 +2,8 @@ CompanyType
 	{
 	Specialization		"Manufacturing Technologies"
 	PerYear				0.2
-	Min					2
-	Max					2
+	Min					3
+	Max					7
     Frameworks          False
 	Types
 		[

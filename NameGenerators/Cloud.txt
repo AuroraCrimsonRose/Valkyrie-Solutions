@@ -5,6 +5,7 @@ Drop
 Quick 
 Fast 
 Magic 
+Mega 
 -base2(stop)
 Box
 Cloud
