@@ -180,6 +180,8 @@ SoftwareType
                             Spec            Network
                             DevTime         2
                             CodeArt         1
+                            Optional        True
+                            Forced          [ Default ]
                             Submarkets      [ 1; 1; 1 ]
                             Features
                                         [

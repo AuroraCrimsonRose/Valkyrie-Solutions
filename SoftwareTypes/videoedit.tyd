@@ -35,7 +35,7 @@ SoftwareType
                                             DevTime         6
                                             CodeArt         0.5
                                             Level           1
-                                            Submarkets      [ 1; 0; 0 ]
+                                            Submarkets      [ 0; 1; 0 ]
                                         }
                                         {
                                             Name            "HD Support"
