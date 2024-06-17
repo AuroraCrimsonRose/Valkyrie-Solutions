@@ -4,24 +4,24 @@ CompanyType
 	PerYear				0.2
 	Min					5
 	Max					20
-    Frameworks          False
+    Frameworks          True
 	Types
 		[
 			{
 			Software	"VOIP"
-			Chance		0.75
+			Chance		1
 			}
 			{
 			Software	"Browser"
-			Chance		0.75
+			Chance		1
 			}
 			{
 			Software	"Email Client"
-			Chance		0.75
+			Chance		1
 			}
 			{
 			Software	"Social Media Platform"
-			Chance		0.5
+			Chance		1
 			}
 		]
 	}

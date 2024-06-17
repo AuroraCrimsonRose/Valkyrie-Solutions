@@ -1,0 +1,16 @@
+CompanyType
+	{
+	Specialization		"Phone Operating Systems"
+	PerYear				0.2
+	Min					2
+	Max					5
+	Frameworks			True
+	Types
+		[
+			{
+			Software	"Operating System"
+			Category	Phone
+			Chance		1
+			}
+		]
+	}

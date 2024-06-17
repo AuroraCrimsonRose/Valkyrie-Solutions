@@ -4,7 +4,7 @@ CompanyType
 	PerYear				0.2
 	Min					2
 	Max					10
-    Frameworks          False
+    Frameworks          True
 	Types
 		[
 			{
