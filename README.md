@@ -48,5 +48,4 @@ Enjoying Valkyrie Solutions? Consider starring the repository if you find it use
 
 ## Links
 
-- Trello Roadmap: https://trello.com/invite/b/I0MilAyp/ATTI7418a306f6b2c2085292335bf8e3ce13C711F197/valkyrie-solutions
 - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3235726354
