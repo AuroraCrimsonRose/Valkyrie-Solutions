@@ -1,49 +1,52 @@
 # Valkyrie Solutions Mod for Software Inc
 
-Welcome to the Valkyrie Solutions Mod for Software Inc! This mod is designed to elevate your gameplay by introducing new software options and real-world company names, making your experience more immersive and realistic.
+Welcome to the Valkyrie Solutions Mod for Software Inc.
+
+This mod expands the in-game software ecosystem with additional categories and more realistic company and product naming, designed to improve immersion and variety during gameplay.
 
 ## Features
 
-- **Real Company Names**: Play with company names that reflect real-world businesses, enhancing the realism of your game.
-- **Expanded Software Options**: Broaden your company's horizons with a variety of new software types, adding depth and challenge.
+- Real-world inspired company and product naming
+- Expanded software categories and gameplay variety
 
-Computer Aided Machining (CAM),
-Computer Aided Design (CAD),
-Web  Browser,
-Cloud Software,
-Database Management Software (DMS),
-Email Client,
-Learning Management System (LMS),
-Overclocking Software,
-Streaming Software,
-Video Editing Software,
-VOIP / Instant Messaging Software,
-Social Media Platform.
+### Included software types
+
+- Computer Aided Machining (CAM)
+- Computer Aided Design (CAD)
+- Web Browser
+- Cloud Software
+- Database Management Software (DMS)
+- Email Client
+- Learning Management System (LMS)
+- Overclocking Software
+- Streaming Software
+- Video Editing Software
+- VoIP / Instant Messaging Software
+- Social Media Platform
+
+## Project Status
+
+This project is no longer actively maintained.
+
+It is provided as-is, with no guarantee of updates, compatibility fixes, or support.
 
 ## Contributing
 
-Your contributions are invaluable to the development of Valkyrie Solutions! For contribution guidelines, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file. Whether you're reporting bugs, suggesting new features, or making code contributions, we welcome your input.
+Contributions are no longer actively reviewed, but the existing repository structure may still be useful for reference or forks.
 
 ## Support
 
-If you're experiencing issues or need assistance with the mod, feel free to open an issue on our GitHub page. We are here to help and appreciate your feedback to improve the mod.
+No support is provided for this mod.
 
-## Acknowledgments
+## Acknowledgements
 
-- Thank you to all contributors who help enhance this project.
-- Special thanks to the Software Inc community for their continuous support and valuable feedback.
+Thanks to the Software Inc community for feedback and support during development.
 
 ---
 
-Enjoying Valkyrie Solutions? Consider starring this repository on GitHub to support the project!
+Enjoying Valkyrie Solutions? Consider starring the repository if you find it useful.
 
-## Trello Board
+## Links
 
-- Here is a link to the Trello Roadmap Board 
-[Trello](https://trello.com/invite/b/I0MilAyp/ATTI7418a306f6b2c2085292335bf8e3ce13C711F197/valkyrie-solutions)
-
-
-## Steam Workshop Page
-
-- Here is the link to the Steam workshop page. 
-[Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3235726354)
+- Trello Roadmap: https://trello.com/invite/b/I0MilAyp/ATTI7418a306f6b2c2085292335bf8e3ce13C711F197/valkyrie-solutions
+- Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3235726354
